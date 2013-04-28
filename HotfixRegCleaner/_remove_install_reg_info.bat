@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2013-04-10 (April 2013 Patch Tuesday)
+ECHO Last updated: 2013-04-29 (April 2013 Patch Tuesday)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
