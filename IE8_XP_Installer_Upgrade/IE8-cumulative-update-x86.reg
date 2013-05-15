@@ -1,0 +1,301 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{88C6C381-2E85-11D0-94DE-444553540000}\DefaultIcon]
+@="%windir%\\system32\\occache.dll,-99"
+
+[HKEY_CLASSES_ROOT\Interface\{6D5140C1-7436-11CE-8034-00AA006009FA}]
+@="IServiceProvider"
+
+[HKEY_CLASSES_ROOT\Interface\{6D5140C1-7436-11CE-8034-00AA006009FA}\NumMethods]
+@="4"
+
+[HKEY_CLASSES_ROOT\Interface\{6D5140C1-7436-11CE-8034-00AA006009FA}\ProxyStubClsid32]
+@="{B8DA6310-E19B-11D0-933C-00A0C90DCAA9}"
+
+[HKEY_CLASSES_ROOT\Interface\{725E61EC-59A5-4859-B516-54C71A3929A3}]
+@="IFrameBlurHotfix"
+
+[HKEY_CLASSES_ROOT\Interface\{725E61EC-59A5-4859-B516-54C71A3929A3}\NumMethods]
+@="4"
+
+[HKEY_CLASSES_ROOT\Interface\{725E61EC-59A5-4859-B516-54C71A3929A3}\ProxyStubClsid32]
+@="{A4A1A128-768F-41E0-BF75-E4FDDD701CBA}"
+
+[HKEY_CLASSES_ROOT\Interface\{A497816A-C55D-4F05-B9E3-2E0D28E77BA2}]
+@="IBlurHotfixBroker"
+
+[HKEY_CLASSES_ROOT\Interface\{A497816A-C55D-4F05-B9E3-2E0D28E77BA2}\NumMethods]
+@="4"
+
+[HKEY_CLASSES_ROOT\Interface\{A497816A-C55D-4F05-B9E3-2E0D28E77BA2}\ProxyStubClsid32]
+@="{A4A1A128-768F-41E0-BF75-E4FDDD701CBA}"
+
+[HKEY_CLASSES_ROOT\Interface\{CC989665-72B9-4D35-B162-FAD9970EDE07}\NumMethods]
+@="12"
+
+[HKEY_CLASSES_ROOT\Interface\{FF18630E-5B18-4A07-8A75-9FD3CE5A2D14}\NumMethods]
+@="45"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\CTF\TIP\{1188450c-fdab-47ae-80d8-c9633f71be64}\LanguageProfile\0x00000000\{63800dac-e7ca-4df9-9a5c-20765055488d}]
+"Enable"=dword:00000000
+"Enabled"=-
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{027713F2-5FA8-11d2-875B-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{183C259A-0480-11D1-87EA-00C04FC29D46}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{3845A174-EB30-11D1-9A23-00A0C879FE5F}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{54274112-7A5E-11d2-875F-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{58A2E406-8304-11D2-9533-0060B0C3C4F4}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{6DDE3061-736C-11D2-A5E8-00A0C967A25F}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{754FF233-5D4E-11d2-875B-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{80F49562-6A9A-11d2-875F-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{B1549E58-3894-11D2-BB7F-00A0C999C4C1}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{BA60F742-6F72-11d2-875F-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{BB339A46-7C49-11D2-9BF3-00C04FA34789}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{C533ADF1-0C80-11d1-8C54-00A02468F316}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{C5B86F32-69EE-11d2-875F-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{E80353D3-677D-11d2-875E-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{ECDB03D2-6E99-11d2-875F-00A0C93C09B3}]
+"Compatibility Flags"=dword:04000400
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{053F9267-DC04-4294-A72C-58F732D338C0}]
+"Version"="0.0.0.0-2.15.9.0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{06E58E5E-F8CB-4049-991E-A41C03BD419E}]
+"BlockType"="0x02"
+"CompatibilityFlags"="0x00"
+"DllName"="upromisetoolbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=148101"
+"Version"="2.4.1.9"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{14CEEAFF-96DD-4101-AE37-D5ECDC23C3F6}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="alotBHO.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=199443"
+"MasterCLSID"="{5AA2BA46-9913-4DC7-9620-69AB0FA17AE7}"
+"Version"="2.5.12000.509"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{22FC6CE8-7D47-479F-B74A-BFBB04ADB9AF}]
+"BlockType"="0x02"
+"CompatibilityFlags"="0x00"
+"DllName"="PCCBHO.dll"
+"FWLink"=http:
+"Version"="2008.1.0.1"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{3CA2F312-6F6E-4B53-A66E-4E65E497C8C0}]
+"BlockType"="0x02"
+"CompatibilityFlags"="0x00"
+"DllName"="avgssie.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=144284"
+"Version"="8.0.0.101-8.0.0.184"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{5AA2BA46-9913-4DC7-9620-69AB0FA17AE7}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="alot.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=199443"
+"Version"="2.5.12000.509"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{69ABB8E4-3A44-461C-93BC-C3BB6BDF2DF3}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="Backcountry.com.Steepandcheap.Toolbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194205"
+"MasterCLSID"="{F98BA7F6-48D8-4CE7-A8D0-39D13FD6F14F}"
+"Version"="1.1.0.0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{77FEF28E-EB96-44FF-B511-3185DEA48697}]
+"BlockType"="0x40;0x40;0x40"
+"CompatibilityFlags"="0x00;0x00;0x00"
+"DllName"="BaiduBarX.dll;BaiduBarX.dll;BaiduBarX.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=166124"
+"MasterCLSID"="{B580CF65-E151-49C3-B73F-70B13FCA8E86}"
+"Version"="2.0.5.32;2.0.6.10;2.0.6.12"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{79CEEA4E-C231-4614-9E3B-53B2A02F39B7}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="comcastdx.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194273"
+"Version"="1.0.0.9"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{91397D20-1446-11D4-8AF4-0040CA1127B6}]
+"BlockType"="0x40;0x40"
+"CompatibilityFlags"="0x00;0x00"
+"DllName"="yndbar.dll;yndbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194275"
+"Version"="4.4.0.1048;5.0.3.1147"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{A3BC75A2-1F87-4686-AA43-5347D756017C}]
+"BlockType"="0x40;0x40"
+"CompatibilityFlags"="0x00;0x00"
+"DllName"="IEToolbar.dll;IEToolbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkID=166122"
+"MasterCLSID"="{CCC7A320-B3CA-4199-B1A6-9F516DD69829}"
+"Version"="4.504.19.2;4.906.30.2"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{A411D7F4-8D11-43EF-BDE4-AA921666388A}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="Quero.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194274"
+"Version"="5.0.0.4"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{A986E409-30CC-4185-89BB-AB212C104524}]
+"BlockType"="0x02"
+"CompatibilityFlags"="0x00"
+"DllName"="DownloaderManager.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=141062"
+"Version"="1.0.0.24-1.0.0.27"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{B580CF65-E151-49C3-B73F-70B13FCA8E86}]
+"BlockType"="0x40;0x40;0x40"
+"CompatibilityFlags"="0x00;0x00;0x00"
+"DllName"="BaiduBarX.dll;BaiduBarX.dll;BaiduBarX.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=166124"
+"Version"="2.0.5.32;2.0.6.10;2.0.6.12"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{CCC7A320-B3CA-4199-B1A6-9F516DD69829}]
+"BlockType"="0x40;0x40"
+"CompatibilityFlags"="0x00;0x00"
+"DllName"="IEToolbar.dll;IEToolbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkID=166122"
+"Version"="4.504.19.2;4.906.30.2"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{DCC70A83-E184-40A3-906B-779AF5E941C4}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="xfinitydx.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194276"
+"Version"="1.0.0.14"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{E97B5F2E-CA8E-4D34-BDA3-44EEC4ED2B12}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="ToolbarContainer101000317.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194271"
+"Version"="3.3.317.0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{EDC0F17F-F4B7-47E4-B73E-887FAEB376FA}]
+"BlockType"="0x02"
+"CompatibilityFlags"="0x00"
+"DllName"="upromisetoolbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=148101"
+"MasterCLSID"="{06E58E5E-F8CB-4049-991E-A41C03BD419E}"
+"Version"="2.4.1.9"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{F98BA7F6-48D8-4CE7-A8D0-39D13FD6F14F}]
+"BlockType"="0x40"
+"CompatibilityFlags"="0x00"
+"DllName"="Backcountry.com.Steepandcheap.Toolbar.dll"
+"FWLink"="http://go.microsoft.com/fwlink/?LinkId=194205"
+"Version"="1.1.0.0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{FFFFFFFF-CF4E-4F2B-BDC2-0E72E116A856}]
+"Version"="100.0.0.0-110.0.19060.0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{FFFFFFFF-FF12-44C5-91EC-068E3AA1B2D7}]
+"Version"="3.0.0.0-3.0.17.0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\0]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\1]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\2]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\3]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\4]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\TemplatePolicies\High]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\TemplatePolicies\Low]
+"2107"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\TemplatePolicies\MedHigh]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\TemplatePolicies\Medium]
+"2107"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\TemplatePolicies\MedLow]
+"2107"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0]
+"2107"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"2107"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"2107"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"2107"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000

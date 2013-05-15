@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/4/E/3/4E30CB91-FC6D-4358-AE62-C8F1382D2C03/IE8-WindowsServer2003-x64-CHS.exe
+http://download.microsoft.com/download/3/8/8/3880478C-31E7-469D-BA9E-37373F3C5A94/IE8-WindowsServer2003-x64-CHT.exe
+http://download.microsoft.com/download/E/4/0/E4019D11-E70E-4F40-B188-3DF7809E8578/IE8-WindowsServer2003-x64-DEU.exe
+http://download.microsoft.com/download/7/5/4/754D6601-662D-4E39-9788-6F90D8E5C097/IE8-WindowsServer2003-x64-ENU.exe
+http://download.microsoft.com/download/6/F/6/6F6C3172-B2B1-4355-A96A-FEEBB0C2C5E8/IE8-WindowsServer2003-x64-ESN.exe
+http://download.microsoft.com/download/A/9/6/A96664CE-D3AB-4EDA-8908-64BB4DD985C5/IE8-WindowsServer2003-x64-FRA.exe
+http://download.microsoft.com/download/F/3/1/F317247A-2C5A-483A-8BBE-B5985878E0F3/IE8-WindowsServer2003-x64-ITA.exe
+http://download.microsoft.com/download/F/9/F/F9F5DF56-1994-4847-902B-1AABBEF2BC2F/IE8-WindowsServer2003-x64-JPN.exe
+http://download.microsoft.com/download/0/2/B/02B23824-9C7A-4393-92D7-5EDF0BF9C860/IE8-WindowsServer2003-x64-KOR.exe
+http://download.microsoft.com/download/D/6/B/D6BDE447-D6ED-4C03-89A0-32D718B6E618/IE8-WindowsServer2003-x64-PTB.exe
+http://download.microsoft.com/download/1/2/E/12E9B74E-9099-4922-B313-220C45ACDDA2/IE8-WindowsServer2003-x64-RUS.exe

@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/3/2/E/32E318AE-19E2-4C13-AC00-C35C4D52A8D7/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-CHS.exe
+http://download.microsoft.com/download/8/5/8/858FB693-83A7-4356-855A-DBBBAA138CFA/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-CHT.exe
+http://download.microsoft.com/download/6/4/D/64DB52A1-31A2-47F9-B7C4-1F74A6A32533/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-DEU.exe
+http://download.microsoft.com/download/0/A/3/0A315EFA-2962-443D-9CAD-F47A575BB1B3/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-ENU.exe
+http://download.microsoft.com/download/E/F/4/EF431F74-6483-49F4-8229-03D3E9BFF6FE/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-ESN.exe
+http://download.microsoft.com/download/9/8/2/98227B08-67F8-4DCF-B608-03ACA64B7760/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-FRA.exe
+http://download.microsoft.com/download/F/1/6/F16C32EB-2C39-43BD-866B-C266D1433C60/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-ITA.exe
+http://download.microsoft.com/download/3/E/C/3ECBD0BF-8CB6-40B6-BD80-7BFB468EA1EC/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-JPN.exe
+http://download.microsoft.com/download/0/4/6/04652469-38C0-42D3-B1AF-478DBF0E66CE/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-KOR.exe
+http://download.microsoft.com/download/4/8/F/48FE1350-BD50-4CB5-A2D2-1CD383E9FF93/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-PTB.exe
+http://download.microsoft.com/download/7/4/5/745C1985-444E-4D87-A872-B55EFF8F3D50/IE8-WindowsServer2003.WindowsXP-KB2847204-x64-RUS.exe
