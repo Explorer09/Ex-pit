@@ -5,35 +5,39 @@ REM ---------------------------------------------------------------------------
 REM Copyright (C) 2013 Kang-Che Sung <explorer09 @ gmail.com>
 
 REM This program is free software; you can redistribute it and/or
-REM modify it under the terms of the GNU General Public License
-REM as published by the Free Software Foundation; either version 2
-REM of the License, or (at your option) any later version.
+REM modify it under the terms of the GNU Lesser General Public
+REM License as published by the Free Software Foundation; either
+REM version 2.1 of the License, or (at your option) any later version.
 
 REM This program is distributed in the hope that it will be useful,
 REM but WITHOUT ANY WARRANTY; without even the implied warranty of
-REM MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-REM GNU General Public License for more details.
+REM MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+REM Lesser General Public License for more details.
 
-REM You should have received a copy of the GNU General Public License
-REM along with this program; if not, write to the Free Software
-REM Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
-REM MA  02110-1301, USA.
+REM You should have received a copy of the GNU Lesser General Public
+REM License along with this program; if not, write to the Free Software
+REM Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+REM MA  02110-1301  USA
 REM ---------------------------------------------------------------------------
+
+REM These four global variables can be edited when needed.
 
 REM Always use delayed expansion. This avoids command injection which is a 
 REM security issue.
 
+REM BASE_DIR is where the necessary files for this script are located.
 IF "X!BASE_DIR!"=="X" (
     SET BASE_DIR=!CD!
 )
+REM PATH_TO_INSTALLER is the directory that contains the IE8 installers.
 IF "X!PATH_TO_INSTALLER!"=="X" (
     SET PATH_TO_INSTALLER="..\ie8_installers"
 )
+REM PATH_TO_UPDATES is the directory that contains the IE8 updates.
 IF "X!PATH_TO_UPDATES!"=="X" (
     SET PATH_TO_UPDATES="..\ie8_updates"
 )
-REM The BRANCH constant could be either GDR or QFE.
-REM The default is GDR.
+REM BRANCH could be either GDR or QFE. The default is GDR.
 IF "X!BRANCH!"=="X" (
     SET BRANCH=GDR
 )
