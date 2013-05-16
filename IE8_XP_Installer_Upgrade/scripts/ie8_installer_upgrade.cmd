@@ -72,7 +72,7 @@ FOR %%i IN (java.exe) DO (
 )
 IF "X!JAVA!"=="X" (
     ECHO ERROR: Java runtime is not found. Please download and install Java here
-    ECHO ^(http://java.com/^).
+    ECHO ^(http://www.java.com/^).
     SET has_errors=true
 )
 
@@ -184,6 +184,10 @@ REM ---------------------------------------------------------------------------
             REM To remove the strings "IE8-WindowsServer2003.WindowsXP-KB" and
             REM "-x86-XXX.exe".
             SET kb_number=!filename:~34,-12!
+            REM Prefix a "0" when kb_number has only 6 digits.
+            IF "X!kb_number:~6!" == "X" (
+                SET kb_number=0!kb_number!
+            )
             START "" /WAIT %%f /passive /extract:2003-x64-tmp-%%l\!kb_number!
         )
     )
@@ -198,6 +202,10 @@ REM ---------------------------------------------------------------------------
             SET filename=%%f
             REM To remove the strings "IE8-WindowsServer2003-KB" and "-x86-XXX.exe".
             SET kb_number=!filename:~24,-12!
+            REM Prefix a "0" when kb_number has only 6 digits.
+            IF "X!kb_number:~6!" == "X" (
+                SET kb_number=0!kb_number!
+            )
             START "" /WAIT %%f /passive /extract:2003-x86-tmp-%%l\!kb_number!
         )
     )
@@ -212,6 +220,10 @@ REM ---------------------------------------------------------------------------
             SET filename=%%f
             REM To remove the strings "IE8-WindowsXP-KB" and "-x86-XXX.exe".
             SET kb_number=!filename:~16,-12!
+            REM Prefix a "0" when kb_number has only 6 digits.
+            IF "X!kb_number:~6!" == "X" (
+                SET kb_number=0!kb_number!
+            )
             START "" /WAIT %%f /passive /extract:xp-x86-tmp-%%l\!kb_number!
         )
     )
