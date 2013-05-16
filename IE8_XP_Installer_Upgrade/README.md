@@ -30,14 +30,42 @@ How to use
 
 1. Download and install Java and 7-zip.
    <http://www.java.com/> <http://www.7-zip.org/>
+
 2. Download the IE8 installers and the updates of your languages.
    Store the installers in the "ie8_installers" directory and the updates in 
    "ie8_updates" directory.
+
 3. Set the PATH environment variable to where the Java and 7-zip executable 
    are found. If you don't know what to do in this step, open a Command 
    Prompt and run this:
-      SET PATH=%PATH%;C:\Program Files\Java\jre7\bin;C:\Program Files\7-Zip
+
+        SET PATH=%PATH%;C:\Program Files\Java\jre7\bin;C:\Program Files\7-Zip
+
 4. Run "scripts\ie8_installer_upgrade.cmd" in the Command Prompt.
+
+5. The installers in the "ie8_installers" directory will include the updated 
+   files. However, due to a technical limitation (see below) it is impossible 
+   to integrate the registry changes in the IE8 security update. When you 
+   install IE8 using the upgraded installer, use the registry file 
+   IE8-cumulative-update-x86.reg to update the registry. (For 64-bit IE, Use 
+   IE8-cumulative-update-x64.reg instead.)
+
+The IE8-cumulative-update registry file
+---------------------------------------
+
+The registry entries that are applied during IE8 installation are stored in 
+the "update.inf" file in the IE8 installer. The file's SHA1 hash is stored in 
+"ie8.cat" which is signed by Microsoft to prevent malicious edits. This means 
+that I can't integrate registry updates into the file, because the installer 
+will stop installation when it fails the file hash check.
+
+Fortunately all IE8 cumulative security updates carry the same set of registry 
+changes, and the changes are not many. They can be stored in a REG file which 
+can be applied after the IE8 installation.
+
+Sometimes you'll be prompted to restart the computer when the installation 
+finishes. You may choose to apply the .reg file before or after the restart. 
+It doen't matter either way.
 
 Authors and License
 -------------------
@@ -59,4 +87,3 @@ Lesser General Public License for more details.
 The Upgrade script depends on a self-extraction module (7zSD.sfx) by
 Igor Pavlov. The module is licensed under GNU LGPL 2.1.
 7-Zip Copyright (C) 1999-2010 Igor Pavlov.
-
