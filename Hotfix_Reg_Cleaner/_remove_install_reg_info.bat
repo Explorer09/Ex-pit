@@ -1,19 +1,20 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2013-05-16 (May 2013 Patch Tuesday)
+ECHO Last updated: 2013-05-19 (May 2013 Patch Tuesday)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
 ECHO anti-virus software.
 PAUSE
 
-SET updates_count=1
+SET updates_count=0
 SET obsolete_updates_count=0
 
 REM Post-SP3 updates
 SET update_list=
 FOR %%i in (
+KB898461
 KB943232-v2 KB944043-v3 KB946648 KB950762 KB950974 KB951376-v2 KB951978
 KB952004 KB952287 KB952954 KB953155 KB954550-v5 KB954920-v2 KB955704 KB956572
 KB956744 KB956802 KB956844 KB960680-v2 KB960859 KB961451-v2 KB961503 KB969059
@@ -173,6 +174,7 @@ KB970238
 KB970653-v3
 KB971468
 KB971486
+KB971513
 KB971557
 KB971633
 KB971737
@@ -334,27 +336,16 @@ SET g_counter=1
 ECHO Removing uninstall information from registry...
 ECHO.
 
-REM KB898461
-FOR %%i in (KB898461) DO (
-    SET keys_deleted_status=NOTFOUND
-    FOR %%k in (
-        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP3\%%i"
-        "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Management\ARPCache\%%i"
-        "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%%i"
-        "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\HotFix\%%i"
-    ) DO (
-        reg delete %%k /f
-        IF NOT ERRORLEVEL 1 SET keys_deleted_status=DELETED
-    ) >nul 2>nul
-    CALL :DisplayDeletedMessage %%i !keys_deleted_status! !g_counter! %updates_count%
-    SET /A g_counter+=1
-)
-
-ECHO.
 FOR %%i in (%update_list%) DO (
     SET keys_deleted_status=NOTFOUND
+    REM KB898461 writes to this registry key:
+    REM   "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP3\%%i"
+    REM KB971513 and KB2564958 write to this registry key:
+    REM   "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP10\%%i"
     FOR %%k in (
+        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP3\%%i"
         "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP4\%%i"
+        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP10\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Management\ARPCache\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\HotFix\%%i"
@@ -371,7 +362,9 @@ FOR %%i in (%keep_installed_update_list%) DO (
     SET has_hotfix_entry=0
     SET keys_deleted_status=NOTFOUND
     FOR %%k in (
+        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP3\%%i"
         "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP4\%%i"
+        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP10\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Management\ARPCache\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%%i"
     ) DO (
@@ -438,7 +431,9 @@ ECHO.
 FOR %%i in (%obsolete_update_list%) DO (
     SET keys_deleted_status=NOTFOUND_OBSOLETE
     FOR %%k in (
+        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP3\%%i"
         "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP4\%%i"
+        "HKLM\SOFTWARE\Microsoft\Updates\Windows XP\SP10\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Management\ARPCache\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%%i"
         "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\HotFix\%%i"
