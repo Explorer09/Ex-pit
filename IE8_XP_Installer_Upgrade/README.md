@@ -65,7 +65,7 @@ can be applied after the IE8 installation.
 
 Sometimes you'll be prompted to restart the computer when the installation 
 finishes. You may choose to apply the .reg file before or after the restart. 
-It doen't matter either way.
+It doesn't matter either way.
 
 Authors and License
 -------------------
@@ -76,7 +76,7 @@ Copyright (C) 2013 Kang-Che Sung <explorer09 at gmail dot com>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
-License as published by the Free Software Foundation; either
+License (GNU LGPL) as published by the Free Software Foundation; either
 version 2.1 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
