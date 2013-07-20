@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/B/B/1/BB1E35C2-2A87-452E-B875-4C000F49134F/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-CHS.exe
+http://download.microsoft.com/download/3/6/3/36379310-35E6-4FC1-8A61-A2663279DA15/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-CHT.exe
+http://download.microsoft.com/download/7/3/1/7314B1AF-5CCD-4A9F-8A30-0AEC77A9ECF1/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-DEU.exe
+http://download.microsoft.com/download/3/9/8/3983BCFB-80B2-4F89-BA9C-E89375ABEB7E/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-ENU.exe
+http://download.microsoft.com/download/1/2/3/123E8E60-6816-42FF-AE71-67C412E12688/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-ESN.exe
+http://download.microsoft.com/download/C/D/1/CD1319D2-A658-43B6-AF04-031610EC8574/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-FRA.exe
+http://download.microsoft.com/download/7/E/C/7EC2C33E-F5DC-435F-94F0-F855D4D1C1B1/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-ITA.exe
+http://download.microsoft.com/download/6/2/E/62EA2322-45C3-4C42-A1FB-2DC0DA2966A4/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-JPN.exe
+http://download.microsoft.com/download/2/9/4/2942EC5A-0C0D-498E-BC33-5D60365DABD3/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-KOR.exe
+http://download.microsoft.com/download/7/5/F/75F95A00-9441-4195-8C65-47B9D437C51B/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-PTB.exe
+http://download.microsoft.com/download/C/C/C/CCC7BF6E-CEF9-4E2B-8D8C-0D875C297F35/IE8-WindowsServer2003.WindowsXP-KB2846071-x64-RUS.exe

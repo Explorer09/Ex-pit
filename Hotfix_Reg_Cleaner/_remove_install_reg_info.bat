@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2013-06-12 (June 2013 Patch Tuesday)
+ECHO Last updated: 2013-07-20 (July 2013 Patch Tuesday)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
@@ -81,12 +81,14 @@ KB2779562
 KB2780091
 KB2802968
 KB2807986
+KB2808679
 KB2813345
 KB2820197
 KB2820917
-KB2829361
-KB2838727
 KB2839229
+KB2845187
+KB2846071
+KB2850851
 ) DO (
     SET update_list=!update_list! %%i
     SET /A updates_count+=1
@@ -97,7 +99,7 @@ REM   "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\HotFix\%%i" "Installed"
 REM If the key is deleted, the Automatic Update checker will assume the update is not installed.
 SET keep_installed_update_list=
 FOR %%i in (
-KB961118 KB968389 KB2570947 KB2603381 KB2659262 KB2686509
+KB961118 KB968389 KB2570947 KB2603381 KB2686509 KB2834886
 ) DO (
     SET keep_installed_update_list=!keep_installed_update_list! %%i
     SET /A updates_count+=1
@@ -106,7 +108,7 @@ KB961118 KB968389 KB2570947 KB2603381 KB2659262 KB2686509
 REM IE8 updates
 SET ie8_update_list=
 FOR %%i in (
-KB2510531-IE8 KB2598845-IE8 KB2632503-IE8 KB2838727-IE8
+KB2510531-IE8 KB2598845-IE8 KB2632503-IE8 KB2846071-IE8
 ) DO (
     SET ie8_update_list=!ie8_update_list! %%i
     SET /A updates_count+=1
@@ -116,6 +118,7 @@ REM WMP updates
 SET wmp_update_list=
 FOR %%i in (
 KB952069_WM9 KB954155_WM9 KB973540_WM9 KB975558_WM8 KB978695_WM9 KB2378111_WM9
+KB2803821_WM9
 ) DO (
     SET wmp_update_list=!wmp_update_list! %%i
     SET /A updates_count+=1
@@ -267,6 +270,7 @@ KB2646524
 KB2647516
 KB2647518
 KB2657025
+KB2659262
 KB2660465
 KB2661254
 KB2675157
@@ -303,7 +307,9 @@ KB2808735
 KB2809289
 KB2813170
 KB2817183
+KB2829361
 KB2829530
+KB2838727
 ) DO (
     SET obsolete_update_list=!obsolete_update_list! %%i
     SET /A obsolete_updates_count+=1
@@ -318,7 +324,7 @@ KB2416400-IE8 KB2482017-IE8 KB2497640-IE8 KB2530548-IE8 KB2544521-IE8
 KB2559049-IE8 KB2586448-IE8 KB2618444-IE8 KB2647516-IE8 KB2675157-IE8
 KB2699988-IE8 KB2722913-IE8 KB2744842-IE8 KB2761465-IE8 KB2792100-IE8
 KB2797052-IE8 KB2799329-IE8 KB2809289-IE8 KB2817183-IE8 KB2829530-IE8
-KB2847204-IE8
+KB2838727-IE8 KB2847204-IE8
 ) DO (
     SET obsolete_ie8_update_list=!obsolete_ie8_update_list! %%i
     SET /A obsolete_updates_count+=1
