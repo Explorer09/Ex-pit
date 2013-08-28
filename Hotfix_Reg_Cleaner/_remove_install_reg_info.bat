@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2013-08-15 (August 2013 Patch Tuesday)
+ECHO Last updated: 2013-08-28 (August 2013 Patch Tuesday)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
@@ -119,7 +119,7 @@ REM WMP updates
 SET wmp_update_list=
 FOR %%i in (
 KB952069_WM9 KB954155_WM9 KB973540_WM9 KB975558_WM8 KB978695_WM9 KB2378111_WM9
-KB2803821_WM9
+KB2803821-v2_WM9
 ) DO (
     SET wmp_update_list=!wmp_update_list! %%i
     SET /A updates_count+=1
@@ -337,9 +337,11 @@ KB2838727-IE8 KB2846071-IE8 KB2847204-IE8
 )
 
 SET obsolete_wmp_update_list=
+REM (KB2803821_WM9 replaced its v2 update.)
 FOR %%i in (
 KB968816_WM9
 KB979402_WM9
+KB2803821_WM9
 ) DO (
     SET obsolete_wmp_update_list=!obsolete_wmp_update_list! %%i
     SET /A obsolete_updates_count+=1
@@ -508,6 +510,19 @@ FOR %%i in (%obsolete_wmp_update_list%) DO (
         CALL :PromptAndRemoveDir %%d
     )
     SET /A g_counter+=1
+)
+
+REM Workaround for Windows Update still checking for KB2659262.
+REM KB2659262 (gdiplus.dll) is technically replaced by KB2834886 but WU still
+REM checks for the former. So blame Microsoft for this.
+(
+    reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\HotFix\KB2834886" /v Installed >nul 2>nul
+    IF NOT ERRORLEVEL 1 SET has_kb2834886=1
+    IF "!has_kb2834886!"=="1" (
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\HotFix\KB2659262" /v Installed /t REG_DWORD /d 1 /f >nul 2>nul
+        ECHO.
+        ECHO Added workaround for Windows Update checking for KB2659262.
+    )
 )
 
 ECHO.
