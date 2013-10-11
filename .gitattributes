@@ -1,0 +1,13 @@
+# This file is needed to tell GitHub that every file in this repo should have
+# CRLF line endings. Otherwise, the files cannot be edited in Notepad when you
+# download the repo using GitHub's web interface.
+
+* text=auto eol=crlf
+
+*.class binary
+*.sfx binary
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.txt text eol=crlf
+*.reg text eol=crlf
