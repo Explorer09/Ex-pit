@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/1/1/9/119158C9-C7C6-45C4-AAC7-C9E181886773/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-CHS.exe
+http://download.microsoft.com/download/0/B/E/0BEC5DCC-BE52-49CE-BB85-6FC1E20C74CA/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-CHT.exe
+http://download.microsoft.com/download/B/4/2/B42984F6-DD6B-467E-A1B7-58F621305D9F/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-DEU.exe
+http://download.microsoft.com/download/D/6/7/D6755C5C-1566-4D06-A6C2-27A0F4E65C07/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-ENU.exe
+http://download.microsoft.com/download/2/5/2/25207DFA-7098-4C86-8BB1-BA7D22A3E95D/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-ESN.exe
+http://download.microsoft.com/download/7/7/F/77FD1A95-5FE2-458F-B3D2-527FA2E56A2F/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-FRA.exe
+http://download.microsoft.com/download/4/9/4/4946E4C7-983A-4D53-A016-BBF806DE4320/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-ITA.exe
+http://download.microsoft.com/download/C/C/E/CCEF2CF1-2EE8-4106-BA82-33F655A0B455/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-JPN.exe
+http://download.microsoft.com/download/E/E/B/EEBA0549-798F-4390-B581-D65DC6C3C1DB/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-KOR.exe
+http://download.microsoft.com/download/0/5/6/05619DB3-8917-4AF2-9C92-452BAFA7051B/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-PTB.exe
+http://download.microsoft.com/download/8/9/8/898EBB04-DE99-4277-B098-7B0733188F27/IE8-WindowsServer2003.WindowsXP-KB2879017-x64-RUS.exe
