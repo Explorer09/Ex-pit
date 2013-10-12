@@ -54,7 +54,7 @@ SET g_installers_list=
 
 SET has_errors=false
 
-REM Detects the presense of Java and 7-zip.
+REM Detects the presence of Java and 7-zip.
 REM Poor man's 'which' command for batch script.
 SET P7ZIP=
 FOR %%i IN (7z.exe 7za.exe 7zr.exe) DO (
