@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/B/3/C/B3CA042A-BE60-4E82-9291-ABF668840FFA/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-CHS.exe
+http://download.microsoft.com/download/E/8/A/E8A59D83-CA34-4EA3-B1D5-6F3A0C97C2FE/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-CHT.exe
+http://download.microsoft.com/download/C/D/4/CD43AB4C-B930-4068-8DA8-B7435C855118/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-DEU.exe
+http://download.microsoft.com/download/B/8/2/B8257FE7-F1F6-4015-8A3B-2B47C7A3AB0F/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-ENU.exe
+http://download.microsoft.com/download/1/B/9/1B96D08F-6D35-4ECD-83E9-52EB22CB46B9/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-ESN.exe
+http://download.microsoft.com/download/8/5/8/8583FE5B-2909-4400-945A-ED4571CF6446/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-FRA.exe
+http://download.microsoft.com/download/B/3/3/B3353DD0-6C09-4686-9175-06692E0DF92A/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-ITA.exe
+http://download.microsoft.com/download/6/2/B/62B03F18-9F53-49A4-80FE-7D0308A07F85/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-JPN.exe
+http://download.microsoft.com/download/0/C/4/0C4AA3E0-7D4E-41F2-8C63-976004289905/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-KOR.exe
+http://download.microsoft.com/download/6/9/2/6928C7A9-2C42-404D-A31A-2424BDCDA635/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-PTB.exe
+http://download.microsoft.com/download/A/E/2/AE23EF36-0612-400C-8D6E-56415498D3CE/IE8-WindowsServer2003.WindowsXP-KB2898785-x64-RUS.exe
