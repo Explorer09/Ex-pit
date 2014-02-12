@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/0/7/9/079663A7-A7BA-4C83-8A84-F540474FF777/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-CHS.exe
+http://download.microsoft.com/download/9/F/2/9F225ED0-B7D3-41AC-8D3F-768AA154D545/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-CHT.exe
+http://download.microsoft.com/download/8/6/5/865FFC73-2F23-4547-83E7-DC41FB0D7C0D/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-DEU.exe
+http://download.microsoft.com/download/E/3/C/E3C50691-6589-4C3C-B081-3F86211A063E/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-ENU.exe
+http://download.microsoft.com/download/9/E/3/9E355405-E354-4699-905D-BE85AC3DDA22/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-ESN.exe
+http://download.microsoft.com/download/3/8/7/387F3193-0780-47F2-BB72-76BD5B697F70/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-FRA.exe
+http://download.microsoft.com/download/7/5/3/753E7DCD-DAD7-420F-889E-ADB7AB4CB8BB/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-ITA.exe
+http://download.microsoft.com/download/B/C/D/BCDD1F7D-0C91-4271-B245-762B182C441E/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-JPN.exe
+http://download.microsoft.com/download/C/4/D/C4DBE14C-895B-440D-9455-97B25A72E3F4/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-KOR.exe
+http://download.microsoft.com/download/B/9/C/B9C0CFDE-CC4F-4F57-B842-55423C3559F6/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-PTB.exe
+http://download.microsoft.com/download/D/8/C/D8CC2C41-661A-4905-8E6C-BA43144A9D8F/IE8-WindowsServer2003.WindowsXP-KB2909921-x64-RUS.exe

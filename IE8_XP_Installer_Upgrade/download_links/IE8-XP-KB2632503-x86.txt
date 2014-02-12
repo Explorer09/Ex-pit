@@ -3,6 +3,9 @@ the direct links cannot be provided here. The links below will lead you to the
 download page, where you can validate your genuine copy and download the
 update files.
 
+The KB2632503 and KB2909210 updates together replace KB2510531. So if you have
+downloaded KB2632503 and KB2909210, you don't need the KB2510531 update.
+
 http://www.microsoft.com/ar-sa/download/details.aspx?id=28649
 http://www.microsoft.com/zh-cn/download/details.aspx?id=28649
 http://www.microsoft.com/zh-tw/download/details.aspx?id=28649

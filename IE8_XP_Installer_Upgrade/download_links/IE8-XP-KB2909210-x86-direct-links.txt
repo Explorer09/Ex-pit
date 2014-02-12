@@ -1,0 +1,27 @@
+The KB2632503 and KB2909210 updates together replace KB2510531. So if you have
+downloaded KB2632503 and KB2909210, you don't need the KB2510531 update.
+
+http://download.microsoft.com/download/C/F/2/CF288125-BBC9-4BA3-A91A-E670984115E2/IE8-WindowsXP-KB2909210-x86-ARA.exe
+http://download.microsoft.com/download/7/1/4/714CE4B1-A90B-405D-9FC4-F866585F48A9/IE8-WindowsXP-KB2909210-x86-CHS.exe
+http://download.microsoft.com/download/7/0/D/70D109C9-7EC3-4A4E-AC9F-0B68F3EA2DB5/IE8-WindowsXP-KB2909210-x86-CHT.exe
+http://download.microsoft.com/download/8/A/6/8A6D103F-D79E-4FFC-B741-A2794740BFDC/IE8-WindowsXP-KB2909210-x86-CSY.exe
+http://download.microsoft.com/download/8/8/3/8836DBFE-261B-48BA-A438-7EBF9A608C8A/IE8-WindowsXP-KB2909210-x86-DAN.exe
+http://download.microsoft.com/download/6/1/7/61725D28-F770-44AD-AE60-9D06B33CCDA5/IE8-WindowsXP-KB2909210-x86-DEU.exe
+http://download.microsoft.com/download/3/9/E/39EB71FA-19E5-4B38-8F9E-BD409E3D44C0/IE8-WindowsXP-KB2909210-x86-ELL.exe
+http://download.microsoft.com/download/3/A/9/3A962177-94F2-4B6A-84A0-9069E945105D/IE8-WindowsXP-KB2909210-x86-ENU.exe
+http://download.microsoft.com/download/F/3/E/F3E16DB2-279D-48DC-93F5-D4E9A9531B96/IE8-WindowsXP-KB2909210-x86-ESN.exe
+http://download.microsoft.com/download/D/1/B/D1BE4807-E975-4BCA-81A1-6C64B16B0357/IE8-WindowsXP-KB2909210-x86-FIN.exe
+http://download.microsoft.com/download/9/C/2/9C2959FE-85AF-4614-B5DE-46AC12B2F354/IE8-WindowsXP-KB2909210-x86-FRA.exe
+http://download.microsoft.com/download/7/9/3/79381297-BA34-48F5-B654-248FF3C49C63/IE8-WindowsXP-KB2909210-x86-HEB.exe
+http://download.microsoft.com/download/2/1/C/21C00EF7-428B-4005-BB68-1B7685EE87FF/IE8-WindowsXP-KB2909210-x86-HUN.exe
+http://download.microsoft.com/download/B/7/4/B74E9A30-EB9B-49FB-96A7-B2F01682202C/IE8-WindowsXP-KB2909210-x86-ITA.exe
+http://download.microsoft.com/download/2/A/F/2AFFC723-F43E-4A4C-9359-32841F60D007/IE8-WindowsXP-KB2909210-x86-JPN.exe
+http://download.microsoft.com/download/4/B/E/4BEDC0C7-C339-4CC1-BD1E-7F637E30042A/IE8-WindowsXP-KB2909210-x86-KOR.exe
+http://download.microsoft.com/download/E/A/C/EAC1B189-2093-43FF-9DA4-D6810149C16F/IE8-WindowsXP-KB2909210-x86-NLD.exe
+http://download.microsoft.com/download/3/4/2/3427AC1C-C700-4F37-B579-3E907D052771/IE8-WindowsXP-KB2909210-x86-NOR.exe
+http://download.microsoft.com/download/0/B/0/0B0456C3-6546-424F-BC0E-88B38B2B4BE4/IE8-WindowsXP-KB2909210-x86-PLK.exe
+http://download.microsoft.com/download/4/D/6/4D6D010B-3D73-46D4-8E20-50C637CB0A98/IE8-WindowsXP-KB2909210-x86-PTB.exe
+http://download.microsoft.com/download/C/A/0/CA0FBCC6-FA48-44FE-9D98-C2C934067AD8/IE8-WindowsXP-KB2909210-x86-PTG.exe
+http://download.microsoft.com/download/C/D/9/CD955DBE-6684-47E8-A12A-6CB917B1D058/IE8-WindowsXP-KB2909210-x86-RUS.exe
+http://download.microsoft.com/download/D/B/4/DB476633-DFF9-4215-B25B-6D71A22E6D75/IE8-WindowsXP-KB2909210-x86-SVE.exe
+http://download.microsoft.com/download/B/8/B/B8BAA5F3-8301-4DD0-B911-108F8D4E7C5D/IE8-WindowsXP-KB2909210-x86-TRK.exe

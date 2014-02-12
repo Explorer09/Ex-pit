@@ -1,3 +1,6 @@
+The KB2632503 and KB2909210 updates together replace KB2510531. So if you have
+downloaded KB2632503 and KB2909210, you don't need the KB2510531 update.
+
 http://download.microsoft.com/download/A/E/C/AEC624E6-CB89-4407-9CB0-64352D5AC7D7/IE8-WindowsXP-KB2510531-x86-ARA.exe
 http://download.microsoft.com/download/3/9/D/39DCBFF9-E66E-4610-84E6-87EFDEC53526/IE8-WindowsXP-KB2510531-x86-CHS.exe
 http://download.microsoft.com/download/7/7/F/77FFF321-FF18-4377-9F52-5E9605EEB191/IE8-WindowsXP-KB2510531-x86-CHT.exe

@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/6/0/5/605300E4-5CF2-4B99-9870-AC12E69F2841/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-CHS.exe
+http://download.microsoft.com/download/8/3/1/831981A5-7DC0-4A8A-A440-0F63F23A4F73/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-CHT.exe
+http://download.microsoft.com/download/0/4/F/04FF877A-E97E-4923-8413-3F94BF9583AA/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-DEU.exe
+http://download.microsoft.com/download/A/7/1/A7148D6A-EBB2-41E4-9700-CDB114846ED8/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-ENU.exe
+http://download.microsoft.com/download/C/4/2/C4242EAC-9012-49F4-BED7-C2A8485D0D10/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-ESN.exe
+http://download.microsoft.com/download/4/0/8/408D9449-19D7-4AA9-8AB7-E736B93519DB/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-FRA.exe
+http://download.microsoft.com/download/8/F/F/8FF3ADB5-150A-4753-AEB6-55DDE2EB31C0/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-ITA.exe
+http://download.microsoft.com/download/F/6/4/F6483576-7964-4C25-BD37-AAC6325E8985/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-JPN.exe
+http://download.microsoft.com/download/B/9/A/B9A377A7-109F-4582-A199-04062DCAC50A/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-KOR.exe
+http://download.microsoft.com/download/0/2/E/02E13C53-E394-417F-97B7-9EA6F05E0BBE/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-PTB.exe
+http://download.microsoft.com/download/1/7/4/1742C5D8-EA93-459E-A6B1-09FA4EF877ED/IE8-WindowsServer2003.WindowsXP-KB2909210-x64-RUS.exe
