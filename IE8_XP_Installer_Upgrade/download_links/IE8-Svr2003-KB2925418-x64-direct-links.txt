@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/E/F/3/EF3398F5-3BB3-4C2E-854A-F0A62341C887/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-CHS.exe
+http://download.microsoft.com/download/B/7/6/B7654E5D-9B10-4208-B3F6-571E9440D3F7/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-CHT.exe
+http://download.microsoft.com/download/9/3/B/93B0EEA9-5D07-4200-858C-E2CB5D63FB05/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-DEU.exe
+http://download.microsoft.com/download/9/3/0/930FCF78-2FFF-4A65-88C0-CEADDFC9AC3F/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-ENU.exe
+http://download.microsoft.com/download/D/9/4/D94E9163-037E-4D8A-9E04-40B9C24195BA/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-ESN.exe
+http://download.microsoft.com/download/4/1/4/4149652F-E374-4F1A-8750-B33729C6C9A7/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-FRA.exe
+http://download.microsoft.com/download/F/2/1/F21D3FF6-5D66-4D53-9CCF-2826B6EDB962/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-ITA.exe
+http://download.microsoft.com/download/C/0/7/C07B9936-3B41-4600-81E8-F215C72143F3/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-JPN.exe
+http://download.microsoft.com/download/4/1/A/41AA6B99-FF11-495C-B55C-30B6F896070B/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-KOR.exe
+http://download.microsoft.com/download/9/8/2/982A13DB-EFC5-4865-9C95-998C8D81E38F/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-PTB.exe
+http://download.microsoft.com/download/4/0/0/400D8006-2198-4FCE-B4E0-957E97851BE9/IE8-WindowsServer2003.WindowsXP-KB2925418-x64-RUS.exe
