@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2014-03-12 (March 2014 Patch Tuesday)
+ECHO Last updated: 2014-03-13 (March 2014 Patch Tuesday)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
@@ -130,7 +130,7 @@ REM WMP updates
 SET wmp_update_list=
 FOR %%i in (
 KB952069_WM9 KB954155_WM9 KB973540_WM9 KB975558_WM8 KB978695_WM9 KB2378111_WM9
-KB2803821-v2_WM9
+KB2803821-v2_WM9 KB2834904-v2_WM11
 ) DO (
     SET wmp_update_list=!wmp_update_list! %%i
     SET /A updates_count+=1
@@ -371,11 +371,12 @@ KB2879017-IE8 KB2888505-IE8 KB2898785-IE8 KB2909921-IE8
 )
 
 SET obsolete_wmp_update_list=
-REM (KB2803821_WM9 replaced its v2 update.)
+REM (KB2803821_WM9 KB2834904_WM11 replaced by their v2 updates.)
 FOR %%i in (
 KB968816_WM9
 KB979402_WM9
 KB2803821_WM9
+KB2834904_WM11
 ) DO (
     SET obsolete_wmp_update_list=!obsolete_wmp_update_list! %%i
     SET /A obsolete_updates_count+=1
