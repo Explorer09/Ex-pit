@@ -371,7 +371,7 @@ REM  */
     CD /D !PATH_TO_INSTALLER!
     FOR %%f in (!g_installers_list!) DO (
         CD "%%f"
-        "!P7ZIP!" a -mx=9 -m0=LZMA2 ..\%%f.7z *
+        "!P7ZIP!" a -mx=9 -m0=LZMA2 -mmt=2 ..\%%f.7z *
         CD ..
     )
 GOTO :EOF
