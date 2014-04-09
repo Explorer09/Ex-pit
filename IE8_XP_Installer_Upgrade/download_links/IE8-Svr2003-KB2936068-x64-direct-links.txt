@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/B/8/6/B8633FE3-A040-4860-BA65-A7989DEEDD83/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-CHS.exe
+http://download.microsoft.com/download/4/4/F/44F40FAB-CE5E-4AF1-AA31-49247C64AE94/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-CHT.exe
+http://download.microsoft.com/download/7/7/4/774D5F68-AEF4-492D-8319-546D3F8F84C3/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-DEU.exe
+http://download.microsoft.com/download/4/C/5/4C5B97EA-8E28-4CBB-AF27-0AB0D386F4E9/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-ENU.exe
+http://download.microsoft.com/download/3/7/3/37318AEA-ED92-4D57-A2AA-597D3BF68C00/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-ESN.exe
+http://download.microsoft.com/download/6/5/A/65AE0BD3-607E-4C91-8E32-0A7196FCDB08/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-FRA.exe
+http://download.microsoft.com/download/D/B/4/DB4E9BC8-7B79-4138-95A6-F792509FB442/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-ITA.exe
+http://download.microsoft.com/download/7/0/0/70012793-02F6-4C49-9B09-DA681F9F3975/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-JPN.exe
+http://download.microsoft.com/download/0/4/9/04927A10-1B69-4338-9CDD-9C0CA17E9DC4/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-KOR.exe
+http://download.microsoft.com/download/1/7/B/17BF4A02-D9DE-4649-B579-8B832D5029A9/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-PTB.exe
+http://download.microsoft.com/download/3/2/D/32D45D22-9187-4EE2-8430-59B00AD5CB06/IE8-WindowsServer2003.WindowsXP-KB2936068-x64-RUS.exe
