@@ -2,7 +2,7 @@
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
 REM ---------------------------------------------------------------------------
-REM Copyright (C) 2013 Kang-Che Sung <explorer09 @ gmail.com>
+REM Copyright (C) 2013-2014 Kang-Che Sung <explorer09 @ gmail.com>
 
 REM This program is free software; you can redistribute it and/or
 REM modify it under the terms of the GNU Lesser General Public
@@ -44,12 +44,20 @@ IF "X!BRANCH!"=="X" (
 
 REM ---------------------------------------------------------------------------
 
+REM Command-line switch "repack-only" tells this script to repack all IE8
+REM installers and ignore the updates.
+SET g_repack_only=false
+IF /I "X%1"=="Xrepack-only" (
+    SET g_repack_only=true
+)
+
 REM These variables store the list of languages that has updates detected.
+REM Variables are unused in "repack-only" mode.
 SET g_languages_2003_x64=
 SET g_languages_2003_x86=
 SET g_languages_xp_x86=
 
-REM The list of installers that need to be upgraded.
+REM The list of installers that need to be upgraded or repacked.
 SET g_installers_list=
 
 SET has_errors=false
@@ -69,25 +77,29 @@ IF "X!P7ZIP!"=="X" (
 )
 
 SET JAVA=
-FOR %%i IN (java.exe) DO (
-    IF "X!JAVA!"=="X" (
-        SET JAVA=%%~$PATH:i
+IF "!g_repack_only!"=="false" (
+    FOR %%i IN (java.exe) DO (
+        IF "X!JAVA!"=="X" (
+            SET JAVA=%%~$PATH:i
+        )
     )
-)
-IF "X!JAVA!"=="X" (
-    ECHO ERROR: Java runtime is not found. Please download and install Java here
-    ECHO ^(http://www.java.com/^).
-    SET has_errors=true
+    IF "X!JAVA!"=="X" (
+        ECHO ERROR: Java runtime is not found. Please download and install Java here
+        ECHO ^(http://www.java.com/^).
+        SET has_errors=true
+    )
 )
 
 REM Use absolute paths in path global variables. Also strip quotes in paths.
-CD /D !BASE_DIR!
-IF EXIST !PATH_TO_UPDATES! (
-    CD !PATH_TO_UPDATES!
-    SET PATH_TO_UPDATES=!CD!
-) ELSE (
-    ECHO ERROR: "!BASE_DIR!\!PATH_TO_UPDATES:"=!" does not exist.
-    SET has_errors=true
+IF "!g_repack_only!"=="false" (
+    CD /D !BASE_DIR!
+    IF EXIST !PATH_TO_UPDATES! (
+        CD !PATH_TO_UPDATES!
+        SET PATH_TO_UPDATES=!CD!
+    ) ELSE (
+        ECHO ERROR: "!BASE_DIR!\!PATH_TO_UPDATES:"=!" does not exist.
+        SET has_errors=true
+    )
 )
 
 CD /D !BASE_DIR!
@@ -122,7 +134,11 @@ IF "!has_errors!"=="true" (
 ECHO.
 ECHO BASE_DIR = !BASE_DIR!
 ECHO.
-ECHO PATH_TO_UPDATES = !PATH_TO_UPDATES!
+IF "!g_repack_only!"=="false" (
+    ECHO PATH_TO_UPDATES = !PATH_TO_UPDATES!
+) ELSE (
+    ECHO Repack installers only. Ignoring updates.
+)
 ECHO.
 ECHO PATH_TO_INSTALLER = !PATH_TO_INSTALLER!
 ECHO.
@@ -130,20 +146,26 @@ ECHO Using !BRANCH! branch.
 ECHO.
 PAUSE
 
-ECHO.
-ECHO Extracting the updates... (step 1 of 6)
-ECHO ---------------------------------------
-CALL :ExtractUpdates
+IF "!g_repack_only!"=="false" (
+    ECHO.
+    ECHO Extracting the updates... (step 1 of 6)
+    ECHO ---------------------------------------
+    CALL :ExtractUpdates
+) ELSE (
+    CALL :MakeInstallersList
+)
 
 ECHO.
 ECHO Extracting IE8 installers... (step 2 of 6)
 ECHO ------------------------------------------
 CALL :ExtractInstallers
 
-ECHO.
-ECHO Patching IE8 installers... (step 3 of 6)
-ECHO ------------------------------------
-CALL :PatchInstaller
+IF "!g_repack_only!"=="false" (
+    ECHO.
+    ECHO Patching IE8 installers... (step 3 of 6)
+    ECHO ------------------------------------
+    CALL :PatchInstaller
+)
 
 ECHO.
 ECHO Creating 7z archives... (step 4 of 6)
@@ -192,7 +214,7 @@ REM ---------------------------------------------------------------------------
             IF "X!kb_number:~6!" == "X" (
                 SET kb_number=0!kb_number!
             )
-            START "" /WAIT %%f /passive /extract:2003-x64-tmp-%%l\!kb_number!
+            %%f /passive /extract:2003-x64-tmp-%%l\!kb_number!
         )
     )
     REM 2003-x86
@@ -210,7 +232,7 @@ REM ---------------------------------------------------------------------------
             IF "X!kb_number:~6!" == "X" (
                 SET kb_number=0!kb_number!
             )
-            START "" /WAIT %%f /passive /extract:2003-x86-tmp-%%l\!kb_number!
+            %%f /passive /extract:2003-x86-tmp-%%l\!kb_number!
         )
     )
     REM xp-x86
@@ -228,8 +250,31 @@ REM ---------------------------------------------------------------------------
             IF "X!kb_number:~6!" == "X" (
                 SET kb_number=0!kb_number!
             )
-            START "" /WAIT %%f /passive /extract:xp-x86-tmp-%%l\!kb_number!
+            %%f /passive /extract:xp-x86-tmp-%%l\!kb_number!
         )
+    )
+GOTO :EOF
+
+REM MakeInstallersList only runs in "repack-only" mode.
+:MakeInstallersList
+    CD /D !PATH_TO_INSTALLER!
+    REM 2003-x64
+    FOR %%f IN (IE8-WindowsServer2003-x64-*.exe) DO (
+        SET filename=%%f
+        REM To remove the trailing string ".exe".
+        SET g_installers_list=!g_installers_list! !filename:~0,-4!
+    )
+    REM 2003-x86
+    FOR %%f IN (IE8-WindowsServer2003-x86-*.exe) DO (
+        SET filename=%%f
+        REM To remove the trailing string ".exe".
+        SET g_installers_list=!g_installers_list! !filename:~0,-4!
+    )
+    REM xp-x86
+    FOR %%f IN (IE8-WindowsXP-x86-*.exe) DO (
+        SET filename=%%f
+        REM To remove the trailing string ".exe".
+        SET g_installers_list=!g_installers_list! !filename:~0,-4!
     )
 GOTO :EOF
 
