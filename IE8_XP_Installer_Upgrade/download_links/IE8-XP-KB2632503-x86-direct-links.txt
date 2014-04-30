@@ -1,11 +1,3 @@
-The KB2632503 update for IE8 for Windows XP requires genuine validation. Thus
-the direct links cannot be provided here. The links below will lead you to the
-download page, where you can validate your genuine copy and download the
-update files.
-
-The KB2632503 and KB2909210 updates together replace KB2510531. So if you have
-downloaded KB2632503 and KB2909210, you don't need the KB2510531 update.
-
 http://download.microsoft.com/download/4/B/3/4B3D250F-68B0-436D-A1C6-2D5DC30A56E3/IE8-WindowsXP-KB2632503-x86-ARA.exe
 http://download.microsoft.com/download/A/7/9/A798E371-E073-4214-9205-646B4F8B7345/IE8-WindowsXP-KB2632503-x86-CHS.exe
 http://download.microsoft.com/download/2/F/E/2FE23C7F-8815-41C8-A875-BFD5C3D756E1/IE8-WindowsXP-KB2632503-x86-CHT.exe
