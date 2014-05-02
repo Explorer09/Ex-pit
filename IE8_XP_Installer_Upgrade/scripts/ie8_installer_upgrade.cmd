@@ -146,9 +146,27 @@ ECHO Using !BRANCH! branch.
 ECHO.
 PAUSE
 
+REM Lock directories to prevent another instance running.
+CD /D !PATH_TO_UPDATES!
+IF EXIST "upgrade-tmp" (
+    ECHO ERROR: Failed to lock directory "!PATH_TO_UPDATES!\upgrade-tmp".
+    GOTO :EOF
+)
+CD /D !PATH_TO_INSTALLER!
+IF EXIST "upgrade-tmp" (
+    ECHO ERROR: Failed to lock directory "!PATH_TO_INSTALLER!\upgrade-tmp".
+    GOTO :EOF
+)
+CD /D !PATH_TO_UPDATES!
+MKDIR upgrade-tmp
+CD /D !PATH_TO_INSTALLER!
+MKDIR upgrade-tmp
+
+REM ==== Start procedure ====
+
 IF "!g_repack_only!"=="false" (
     ECHO.
-    ECHO Extracting the updates... (step 1 of 6)
+    ECHO Extracting the updates... ^(step 1 of 6^)
     ECHO ---------------------------------------
     CALL :ExtractUpdates
 ) ELSE (
@@ -156,29 +174,29 @@ IF "!g_repack_only!"=="false" (
 )
 
 ECHO.
-ECHO Extracting IE8 installers... (step 2 of 6)
+ECHO Extracting IE8 installers... ^(step 2 of 6^)
 ECHO ------------------------------------------
 CALL :ExtractInstallers
 
 IF "!g_repack_only!"=="false" (
     ECHO.
-    ECHO Patching IE8 installers... (step 3 of 6)
+    ECHO Patching IE8 installers... ^(step 3 of 6^)
     ECHO ------------------------------------
     CALL :PatchInstaller
 )
 
 ECHO.
-ECHO Creating 7z archives... (step 4 of 6)
+ECHO Creating 7z archives... ^(step 4 of 6^)
 ECHO -------------------------------------
 CALL :Make7z
 
 ECHO.
-ECHO Adding SFX modules and converting to EXE... (step 5 of 6)
+ECHO Adding SFX modules and converting to EXE... ^(step 5 of 6^)
 ECHO ---------------------------------------------------------
 CALL :ConvertToExe
 
 ECHO.
-ECHO Deleting temporary files... (step 6 of 6)
+ECHO Deleting temporary files... ^(step 6 of 6^)
 ECHO -----------------------------------------
 CALL :DelTempFiles
 
@@ -214,7 +232,7 @@ REM ---------------------------------------------------------------------------
             IF "X!kb_number:~6!" == "X" (
                 SET kb_number=0!kb_number!
             )
-            %%f /passive /extract:2003-x64-tmp-%%l\!kb_number!
+            %%f /passive /extract:upgrade-tmp\2003-x64-%%l\!kb_number!
         )
     )
     REM 2003-x86
@@ -232,7 +250,7 @@ REM ---------------------------------------------------------------------------
             IF "X!kb_number:~6!" == "X" (
                 SET kb_number=0!kb_number!
             )
-            %%f /passive /extract:2003-x86-tmp-%%l\!kb_number!
+            %%f /passive /extract:upgrade-tmp\2003-x86-%%l\!kb_number!
         )
     )
     REM xp-x86
@@ -250,7 +268,7 @@ REM ---------------------------------------------------------------------------
             IF "X!kb_number:~6!" == "X" (
                 SET kb_number=0!kb_number!
             )
-            %%f /passive /extract:xp-x86-tmp-%%l\!kb_number!
+            %%f /passive /extract:upgrade-tmp\xp-x86-%%l\!kb_number!
         )
     )
 GOTO :EOF
@@ -282,16 +300,16 @@ GOTO :EOF
     CD /D !PATH_TO_INSTALLER!
     FOR %%f IN (!g_installers_list!) DO (
         ECHO %%f.exe
-        "!P7ZIP!" x -o"%%f" %%f.exe
+        "!P7ZIP!" x -o"upgrade-tmp\%%f" %%f.exe
     )
 GOTO :EOF
 
 :PatchInstaller
     REM 2003-x64
     FOR %%l IN (!g_languages_2003_x64!) DO (
-        CD /D "!PATH_TO_UPDATES!\2003-x64-tmp-%%l"
+        CD /D "!PATH_TO_UPDATES!\upgrade-tmp\2003-x64-%%l"
         FOR /D %%i IN (*) DO (
-            CD /D "!PATH_TO_UPDATES!\2003-x64-tmp-%%l"
+            CD /D "!PATH_TO_UPDATES!\upgrade-tmp\2003-x64-%%l"
             CD %%i
 
             REM Check if GDR is available. If not, fallback to QFE.
@@ -304,25 +322,25 @@ GOTO :EOF
 
             CD "SP2!this_branch!"
             ECHO.
-            ECHO Moving files from 2003-x64-tmp-%%l\%%i\SP2!this_branch!\* ...
+            ECHO Moving files from upgrade-tmp\2003-x64-%%l\%%i\SP2!this_branch!\* ...
 
             REM "wow\wieuinit.inf" is not present in the installer and should be
             REM removed. The installer uses "ieuinit.inf" for both x64 and WoW64.
             DEL /F /Q wow\wieuinit.inf
             FOR %%f IN (wow\*) DO (
                 ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
+                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
             )
             DEL /F /Q wow
             FOR %%f IN (*) DO (
                 ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
+                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
             )
 
-            CD /D "!PATH_TO_INSTALLER!\IE8-WindowsServer2003-x64-%%l\update"
+            CD /D "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\update"
             ECHO.
-            ECHO Patching update.ver with 2003-x64-tmp-%%l\%%i\update\update.ver ...
-            FOR %%f IN ("!PATH_TO_UPDATES!\2003-x64-tmp-%%l\%%i\update\update.ver") DO (
+            ECHO Patching update.ver with upgrade-tmp\2003-x64-%%l\%%i\update\update.ver ...
+            FOR %%f IN ("!PATH_TO_UPDATES!\upgrade-tmp\2003-x64-%%l\%%i\update\update.ver") DO (
                 ECHO %%f
                 "!JAVA!" -classpath "!BASE_DIR!" PatchUpdateVer update.ver %%f !this_branch! >update-patched.ver
                 IF ERRORLEVEL 1 (
@@ -335,9 +353,9 @@ GOTO :EOF
     )
     REM 2003-x86
     FOR %%l IN (!g_languages_2003_x86!) DO (
-        CD /D "!PATH_TO_UPDATES!\2003-x86-tmp-%%l"
+        CD /D "!PATH_TO_UPDATES!\upgrade-tmp\2003-x86-%%l"
         FOR /D %%i IN (*) DO (
-            CD /D "!PATH_TO_UPDATES!\2003-x86-tmp-%%l"
+            CD /D "!PATH_TO_UPDATES!\upgrade-tmp\2003-x86-%%l"
             CD %%i
 
             REM Check if GDR is available. If not, fallback to QFE.
@@ -350,16 +368,16 @@ GOTO :EOF
 
             CD "SP2!this_branch!"
             ECHO.
-            ECHO Moving files from 2003-x86-tmp-%%l\%%i\SP2!this_branch!\* ...
+            ECHO Moving files from upgrade-tmp\2003-x86-%%l\%%i\SP2!this_branch!\* ...
             FOR %%f IN (*) DO (
                 ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\IE8-WindowsServer2003-x86-%%l\%%f" >NUL
+                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\%%f" >NUL
             )
 
-            CD /D "!PATH_TO_INSTALLER!\IE8-WindowsServer2003-x86-%%l\update"
+            CD /D "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\update"
             ECHO.
-            ECHO Patching update.ver with 2003-x86-tmp-%%l\%%i\update\update.ver ...
-            FOR %%f IN ("!PATH_TO_UPDATES!\2003-x86-tmp-%%l\%%i\update\update.ver") DO (
+            ECHO Patching update.ver with upgrade-tmp\2003-x86-%%l\%%i\update\update.ver ...
+            FOR %%f IN ("!PATH_TO_UPDATES!\upgrade-tmp\2003-x86-%%l\%%i\update\update.ver") DO (
                 ECHO %%f
                 "!JAVA!" -classpath "!BASE_DIR!" PatchUpdateVer update.ver %%f !this_branch! >update-patched.ver
                 IF ERRORLEVEL 1 (
@@ -372,9 +390,9 @@ GOTO :EOF
     )
     REM xp-x86
     FOR %%l IN (!g_languages_xp_x86!) DO (
-        CD /D "!PATH_TO_UPDATES!\xp-x86-tmp-%%l"
+        CD /D "!PATH_TO_UPDATES!\upgrade-tmp\xp-x86-%%l"
         FOR /D %%i IN (*) DO (
-            CD /D "!PATH_TO_UPDATES!\xp-x86-tmp-%%l"
+            CD /D "!PATH_TO_UPDATES!\upgrade-tmp\xp-x86-%%l"
             CD %%i
 
             REM Check if GDR is available. If not, fallback to QFE.
@@ -387,16 +405,16 @@ GOTO :EOF
 
             CD "SP3!this_branch!"
             ECHO.
-            ECHO Moving files from xp-x86-tmp-%%l\%%i\SP3!this_branch!\* ...
+            ECHO Moving files from upgrade-tmp\xp-x86-%%l\%%i\SP3!this_branch!\* ...
             FOR %%f IN (*) DO (
                 ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\IE8-WindowsXP-x86-%%l\%%f" >NUL
+                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\%%f" >NUL
             )
 
-            CD /D "!PATH_TO_INSTALLER!\IE8-WindowsXP-x86-%%l\update"
+            CD /D "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\update"
             ECHO.
-            ECHO Patching update.ver with xp-x86-tmp-%%l\%%i\update\update.ver ...
-            FOR %%f IN ("!PATH_TO_UPDATES!\xp-x86-tmp-%%l\%%i\update\update.ver") DO (
+            ECHO Patching update.ver with upgrade-tmp\xp-x86-%%l\%%i\update\update.ver ...
+            FOR %%f IN ("!PATH_TO_UPDATES!\upgrade-tmp\xp-x86-%%l\%%i\update\update.ver") DO (
                 ECHO %%f
                 "!JAVA!" -classpath "!BASE_DIR!" PatchUpdateVer update.ver %%f !this_branch! >update-patched.ver
                 IF ERRORLEVEL 1 (
@@ -413,7 +431,7 @@ REM /**
 REM  * Create a 7z archive for every directory in %g_installers_list%.
 REM  */
 :Make7z
-    CD /D !PATH_TO_INSTALLER!
+    CD /D "!PATH_TO_INSTALLER!\upgrade-tmp"
     FOR %%f in (!g_installers_list!) DO (
         CD "%%f"
         "!P7ZIP!" a -mx=9 -m0=LZMA2 -mmt=2 ..\%%f.7z *
@@ -430,31 +448,16 @@ GOTO :EOF
             MOVE "%%f.exe" "%%f.bak"
         )
         ECHO %%f.exe
-        COPY /B "!BASE_DIR!\7zSD_upxed.sfx"+"!BASE_DIR!\sfx_conf.txt"+"%%f.7z" "%%f.exe"
+        COPY /B "!BASE_DIR!\7zSD_upxed.sfx"+"!BASE_DIR!\sfx_conf.txt"+"upgrade-tmp\%%f.7z" "%%f.exe"
     )
 GOTO :EOF
 
 :DelTempFiles
     CD /D !PATH_TO_UPDATES!
-    FOR %%l IN (!g_languages_2003_x64!) DO (
-        ECHO RMDIR /S /Q "2003-x64-tmp-%%l"
-        RMDIR /S /Q "2003-x64-tmp-%%l"
-    )
-    FOR %%l IN (!g_languages_2003_x86!) DO (
-        ECHO RMDIR /S /Q "2003-x86-tmp-%%l"
-        RMDIR /S /Q "2003-x86-tmp-%%l"
-    )
-    FOR %%l IN (!g_languages_xp_x86!) DO (
-        ECHO RMDIR /S /Q "xp-x86-tmp-%%l"
-        RMDIR /S /Q "xp-x86-tmp-%%l"
-    )
+    ECHO "!PATH_TO_UPDATES!\upgrade-tmp"
+    RMDIR /S /Q "upgrade-tmp"
 
     CD /D !PATH_TO_INSTALLER!
-    FOR %%f IN (!g_installers_list!) DO (
-        ECHO RMDIR /S /Q "%%f"
-        RMDIR /S /Q "%%f"
-        ECHO DEL /F /Q "%%f.7z"
-        DEL /F /Q "%%f.7z"
-    )
+    ECHO "!PATH_TO_INSTALLER!\upgrade-tmp"
+    RMDIR /S /Q "upgrade-tmp"
 GOTO :EOF
-
