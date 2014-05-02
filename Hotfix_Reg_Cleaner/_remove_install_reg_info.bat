@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2014-04-09 (April 2014 Patch Tuesday)
+ECHO Last updated: 2014-05-02 (April 2014 Patch Tuesday)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
@@ -101,6 +101,7 @@ KB2929961
 KB2930275
 KB2935092
 KB2936068
+KB2964358
 ) DO (
     SET update_list=!update_list! %%i
     SET /A updates_count+=1
@@ -121,6 +122,7 @@ REM IE8 updates
 SET ie8_update_list=
 FOR %%i in (
 KB2510531-IE8 KB2598845-IE8 KB2632503-IE8 KB2909210-IE8 KB2936068-IE8
+KB2964358-IE8
 ) DO (
     SET ie8_update_list=!ie8_update_list! %%i
     SET /A updates_count+=1

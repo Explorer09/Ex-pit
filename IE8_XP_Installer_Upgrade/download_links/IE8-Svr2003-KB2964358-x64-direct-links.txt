@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/C/3/2/C3266120-A1DA-41C6-8E0E-1CE4D9FC1317/IE8-WindowsServer2003-KB2964358-x64-CHS.exe
+http://download.microsoft.com/download/A/6/0/A604B181-3343-4E81-9571-FBE231C92F65/IE8-WindowsServer2003-KB2964358-x64-CHT.exe
+http://download.microsoft.com/download/8/B/2/8B283E82-3E4F-40D3-8E31-7DBAA4B13C17/IE8-WindowsServer2003-KB2964358-x64-DEU.exe
+http://download.microsoft.com/download/8/3/5/835BD764-4781-4FAA-8C96-B189529089C5/IE8-WindowsServer2003-KB2964358-x64-ENU.exe
+http://download.microsoft.com/download/8/B/7/8B7CB2C1-38A8-4C22-96D3-2846B6E5BE3F/IE8-WindowsServer2003-KB2964358-x64-ESN.exe
+http://download.microsoft.com/download/3/9/6/3962C89A-43DB-43C5-A93B-75F32BC4475D/IE8-WindowsServer2003-KB2964358-x64-FRA.exe
+http://download.microsoft.com/download/A/5/E/A5E961DB-8E29-484E-8B96-BF89B05B6572/IE8-WindowsServer2003-KB2964358-x64-ITA.exe
+http://download.microsoft.com/download/9/0/0/9000DA66-AD43-4031-B191-D6D9FC61F6D5/IE8-WindowsServer2003-KB2964358-x64-JPN.exe
+http://download.microsoft.com/download/7/8/6/786BBD8F-3DD2-4002-A58F-B24D90C2DAE1/IE8-WindowsServer2003-KB2964358-x64-KOR.exe
+http://download.microsoft.com/download/D/5/F/D5FA481B-1BA8-49D2-9706-1F19A5E3DECF/IE8-WindowsServer2003-KB2964358-x64-PTB.exe
+http://download.microsoft.com/download/D/8/C/D8C12FBC-A387-4903-B986-40697E137C59/IE8-WindowsServer2003-KB2964358-x64-RUS.exe

@@ -85,6 +85,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{ECDB03D2-6E99-11d2-875F-00A0C93C09B3}]
 "Compatibility Flags"=dword:04000400
 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\AdvancedOptions\BROWSE\ACTIVITIES]
+"OSVersion"="4.5.0.0.0"
+
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extension Compatibility\{053F9267-DC04-4294-A72C-58F732D338C0}]
 "Version"="0.0.0.0-2.15.9.0"
 
