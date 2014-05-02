@@ -1,0 +1,5 @@
+*.exe
+*.7z
+
+ie8_installers/*/
+ie8_updates/*/
