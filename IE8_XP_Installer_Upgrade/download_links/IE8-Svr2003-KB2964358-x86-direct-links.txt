@@ -1,4 +1,5 @@
 http://download.microsoft.com/download/2/8/9/289AD1E4-B04D-41CA-931D-BEB48AC6B1F5/IE8-WindowsServer2003-KB2964358-x86-CHS.exe
+http://download.microsoft.com/download/8/9/C/89C8E080-2429-42A7-8248-ED16C43514C7/IE8-WindowsServer2003-KB2964358-x86-CHT.exe
 http://download.microsoft.com/download/1/A/A/1AA576B1-40C7-4DFB-8206-1B379962B17D/IE8-WindowsServer2003-KB2964358-x86-CSY.exe
 http://download.microsoft.com/download/C/E/8/CE8EAA67-AEF3-48E3-A682-1197FD6F580D/IE8-WindowsServer2003-KB2964358-x86-DEU.exe
 http://download.microsoft.com/download/5/A/3/5A3DB03B-0C02-4357-AA12-BEAB2D1A217E/IE8-WindowsServer2003-KB2964358-x86-ENU.exe
