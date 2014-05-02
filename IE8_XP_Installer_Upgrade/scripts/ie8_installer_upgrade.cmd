@@ -258,11 +258,15 @@ REM ---------------------------------------------------------------------------
         IF EXIST IE8-WindowsXP-KB*-x86-%%l.exe (
             SET g_languages_xp_x86=!g_languages_xp_x86! %%l
             SET g_installers_list=!g_installers_list! IE8-WindowsXP-x86-%%l
+        ) ELSE IF EXIST IE8-WindowsXP-KB*-x86-custom-%%l.exe (
+            SET g_languages_xp_x86=!g_languages_xp_x86! %%l
+            SET g_installers_list=!g_installers_list! IE8-WindowsXP-x86-%%l
         )
-        FOR %%f IN (IE8-WindowsXP-KB*-x86-%%l.exe) DO (
+        FOR %%f IN (IE8-WindowsXP-KB*-x86-%%l.exe IE8-WindowsXP-KB*-x86-custom-%%l.exe) DO (
             ECHO %%f
             SET filename=%%f
             REM To remove the strings "IE8-WindowsXP-KB" and "-x86-XXX.exe".
+            SET filename=!filename:x86-custom=x86!
             SET kb_number=!filename:~16,-12!
             REM Prefix a "0" when kb_number has only 6 digits.
             IF "X!kb_number:~6!" == "X" (
