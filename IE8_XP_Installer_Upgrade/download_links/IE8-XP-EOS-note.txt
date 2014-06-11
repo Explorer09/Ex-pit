@@ -9,3 +9,4 @@ Note that Windows XP x64 Edition can install IE8 updates targeted for Windows
 Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 
 2014-05, KB2953522, MS14-029, Replaces KB2964358, mshtml.dll mshtmled.dll
+2014-06, KB2957689, MS14-035, Replaces KB2936068 KB2953522, Cumulative
