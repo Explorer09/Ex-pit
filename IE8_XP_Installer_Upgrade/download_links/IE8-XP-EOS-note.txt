@@ -10,3 +10,4 @@ Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 
 2014-05, KB2953522, MS14-029, Replaces KB2964358, mshtml.dll mshtmled.dll
 2014-06, KB2957689, MS14-035, Replaces KB2936068 KB2953522, Cumulative
+2014-07, KB2962872, MS14-037, Replaces KB2957689, Cumulative
