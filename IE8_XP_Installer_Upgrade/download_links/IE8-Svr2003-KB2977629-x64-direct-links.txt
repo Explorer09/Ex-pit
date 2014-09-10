@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/9/3/6/936DE283-7397-40E5-ABF3-96CB1FF0D250/IE8-WindowsServer2003-KB2977629-x64-CHS.exe
+http://download.microsoft.com/download/B/5/E/B5E74770-F36F-4447-A6F3-0CFC4EAB373C/IE8-WindowsServer2003-KB2977629-x64-CHT.exe
+http://download.microsoft.com/download/6/3/3/6338399A-2BCB-44F0-B1E6-2BFB2C846613/IE8-WindowsServer2003-KB2977629-x64-DEU.exe
+http://download.microsoft.com/download/F/E/0/FE0503AC-5314-46FD-B51F-CDF8A3A171D2/IE8-WindowsServer2003-KB2977629-x64-ENU.exe
+http://download.microsoft.com/download/5/3/1/5319458B-16F5-4126-8391-A55EA265ED1C/IE8-WindowsServer2003-KB2977629-x64-ESN.exe
+http://download.microsoft.com/download/F/2/3/F2399A4B-528E-4B3D-A029-8BAA491D25F9/IE8-WindowsServer2003-KB2977629-x64-FRA.exe
+http://download.microsoft.com/download/6/8/5/685A5162-FA57-4C66-A524-5E7EF287F47F/IE8-WindowsServer2003-KB2977629-x64-ITA.exe
+http://download.microsoft.com/download/2/7/D/27D6384B-5BB3-4373-B014-239CDD472D08/IE8-WindowsServer2003-KB2977629-x64-JPN.exe
+http://download.microsoft.com/download/C/F/1/CF13F587-C1FA-44E3-97E2-A152F9636540/IE8-WindowsServer2003-KB2977629-x64-KOR.exe
+http://download.microsoft.com/download/2/9/B/29BD4909-053A-4848-B7CF-E513B41C4ECC/IE8-WindowsServer2003-KB2977629-x64-PTB.exe
+http://download.microsoft.com/download/B/3/A/B3AB29C2-0EB2-462C-93AA-1ADF7E0877D3/IE8-WindowsServer2003-KB2977629-x64-RUS.exe
