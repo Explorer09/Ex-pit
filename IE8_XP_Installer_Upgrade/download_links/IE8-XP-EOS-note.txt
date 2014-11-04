@@ -13,3 +13,4 @@ Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 2014-07, KB2962872, MS14-037, Replaces KB2957689, Cumulative
 2014-08, KB2976627, MS14-051, Replaces KB2962872, Cumulative
 2014-09, KB2977629, MS14-052, Replaces KB2976627, Cumulative
+2014-10, KB2987107, MS14-056, Replaces KB2977629, Cumulative
