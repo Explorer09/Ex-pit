@@ -1,0 +1,11 @@
+http://download.microsoft.com/download/9/1/F/91FD746F-F252-477E-B85F-266D6CB2C4AD/IE8-WindowsServer2003-KB3003057-x64-CHS.exe
+http://download.microsoft.com/download/C/E/C/CEC4A4DD-EC50-44A9-BFA6-0CD363D724DF/IE8-WindowsServer2003-KB3003057-x64-CHT.exe
+http://download.microsoft.com/download/B/E/7/BE7F1EAB-0B64-456A-96BE-97D07338EFB0/IE8-WindowsServer2003-KB3003057-x64-DEU.exe
+http://download.microsoft.com/download/6/F/9/6F9D0DB3-A208-4B1A-904D-664FA3102FE8/IE8-WindowsServer2003-KB3003057-x64-ENU.exe
+http://download.microsoft.com/download/D/D/9/DD9C130A-BAC3-4E4C-A80B-5D78B69F30D0/IE8-WindowsServer2003-KB3003057-x64-ESN.exe
+http://download.microsoft.com/download/A/5/E/A5E756FC-5B5D-4144-9CAC-3EA5BEA24BC6/IE8-WindowsServer2003-KB3003057-x64-FRA.exe
+http://download.microsoft.com/download/4/8/5/48507FAB-EBE3-4B30-98AC-F3A747E11F5A/IE8-WindowsServer2003-KB3003057-x64-ITA.exe
+http://download.microsoft.com/download/D/D/0/DD03A27D-C9E8-4116-97A9-09867E297B8A/IE8-WindowsServer2003-KB3003057-x64-JPN.exe
+http://download.microsoft.com/download/B/A/F/BAF9641A-4940-4030-96E3-91CE128FEE24/IE8-WindowsServer2003-KB3003057-x64-KOR.exe
+http://download.microsoft.com/download/C/4/3/C435934E-2416-4397-9F55-B759E51D17BC/IE8-WindowsServer2003-KB3003057-x64-PTB.exe
+http://download.microsoft.com/download/9/6/E/96ECBE88-F8BC-435A-A186-9C0054F22E35/IE8-WindowsServer2003-KB3003057-x64-RUS.exe
