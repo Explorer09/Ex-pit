@@ -1,0 +1,34 @@
+# For Office 2003 Professional edition - Chinese Traditional,,,,,,
+# Last updated: 2014-08-16 (2014-07 Patch Tuesday),,,,,,
+# Download?,Date,KB number,Security bulletin,Component,Download ID,Direct link
+Y,2007-09,923618,SP3,MAINSP3,8,http://download.microsoft.com/download/f/6/4/f64688cc-e40d-4070-a6d8-12b5ac44d501/Office2003SP3-KB923618-FullFile-CHT.exe
+Y,2008-02,943973,MS08-011,WORKS632,1101,http://download.microsoft.com/download/c/6/4/c6477678-adb3-4497-aedc-15765c6d914a/office2003-KB943973-FullFile-CHT.exe
+Y,2008-08,955439,MS08-041,SNAPVIEW,25112,http://download.microsoft.com/download/c/3/0/c30a7a5f-833c-40a0-bf68-a95911170ab3/office2003-KB955439-FullFile-CHT.exe
+Y,2009-08,947319,MS09-043,OWC10 OWC11,5033,http://download.microsoft.com/download/B/C/D/BCDC7E94-1919-49EF-A67E-548503CF8F64/office2003-KB947319-FullFile-CHT.exe
+Y,2010-06,980923,MS10-039,INFOPATH,6021,http://download.microsoft.com/download/8/1/C/81C8B96C-6537-4E44-9756-36CB2165D428/office2003-KB980923-FullFile-CHT.exe
+Y,2010-07,981716,MS10-044,MSACCESS,10213,http://download.microsoft.com/download/A/7/E/A7EDEE17-CFDD-4B2C-94CD-92784A095EA2/office2003-KB981716-FullFile-CHT.exe
+N,2010-07,980373,MS10-045,OUTLOOK,12701,http://download.microsoft.com/download/E/2/3/E233EADF-B42D-4F7B-85E6-A1583721D22F/office2003-KB980373-FullFile-CHT.exe
+Y,2010-09,2288613,MS10-063,USP10,23997,http://download.microsoft.com/download/9/7/C/97CB0E3B-A02F-4272-8B4D-2525547296E8/office2003-KB2288613-FullFile-CHT.exe
+Y,2010-09,2293428,MS10-064,OLKINTL,23351,http://download.microsoft.com/download/1/F/E/1FECBE16-77E5-4A67-953B-9F1E9BC6F327/office2003-KB2293428-FullFile-CHT.exe
+Y,2010-12,2289163,MS10-105,GPFILT,11805,http://download.microsoft.com/download/5/7/9/57984D17-D76B-4179-A9F9-8AAED35662C2/office2003-KB2289163-FullFile-CHT.exe
+Y,2011-05,2535812,MS11-036,POWERPNT,6179,http://download.microsoft.com/download/D/3/0/D306A754-7EC1-492E-A4B3-257A1A0F7369/office2003-KB2535812-FullFile-CHT.exe
+Y,2011-07,2493523,MS11-055,MFC11,26781,http://download.microsoft.com/download/B/0/B/B0BA3BD3-ABE6-455D-B20E-2EEBCE97491A/office2003-KB2493523-FullFile-CHT.exe
+Y,2012-07,2687626,MS12-046,VBE6,35717,http://download.microsoft.com/download/B/B/3/BB398FAB-A7BA-44DE-8E9F-8A43D7F597B3/office2003-KB2687626-FullFile-CHT.exe
+Y,2012-08,2726929,MS12-060,MSCOMCTL,36010,http://download.microsoft.com/download/0/1/9/01927906-1A3D-4C5C-BA3D-C428CFAC1FC8/office2003-KB2726929-FullFile-CHT.exe
+Y,2013-01,2760574,MS13-002,MSXML5,36361,http://download.microsoft.com/download/C/9/2/C92A1C0C-283E-428B-B190-970BD22C1983/office2003-KB2760574-FullFile-CHT.exe
+Y,2013-09,2817474,MS13-072,MSO,40191,http://download.microsoft.com/download/7/6/2/7627552F-48BA-434C-B76B-92C2A2256C6E/office2003-KB2817474-FullFile-CHT.exe
+N,2013-09,2810048,MS13-073,EXCEL,40169,http://download.microsoft.com/download/9/F/1/9F105630-73F3-4094-A894-A0643AFD8436/office2003-KB2810048-FullFile-CHT.exe
+Y,2013-09,2825621,MS13-078,FRONTPG,40180,http://download.microsoft.com/download/E/0/6/E062822F-6533-4B92-8C2A-013502E077D8/office2003-KB2825621-FullFile-CHT.exe
+Y,2013-11,2760494,MS13-091,MSCONV,41120,http://download.microsoft.com/download/E/8/E/E8E4A577-34B8-4F7B-8C29-609313726FC3/office2003-KB2760494-FullFile-CHT.exe
+Y,2013-12,2850047,MS13-096,GDIPLUS,41426,http://download.microsoft.com/download/8/C/1/8C1807D1-9501-4CDC-8976-816CC596E6F0/office2003-KB2850047-FullFile-CHT.exe
+Y,2014-04,2878303,MS14-017,WINWORD,42408,http://download.microsoft.com/download/B/7/5/B75159D9-E31F-4A39-9FFB-55E721C63D60/office2003-KB2878303-FullFile-CHT.exe
+Y,2014-04,2878299,MS14-020,MSPUB,42403,http://download.microsoft.com/download/4/4/B/44B7BA91-67E7-42B7-BEB8-05B74C0EE2A0/office2003-KB2878299-FullFile-CHT.exe
+Y,2005-11,907417,-,OTKLOADR,10624,http://download.microsoft.com/download/5/9/7/59751662-44dd-4231-85d7-26ab534b4d64/office2003-KB907417-FullFile-CHT.exe
+N,2007-11,943452,-,,5180,-
+N,2008-09,924423,-,OUTLHOL,18930,http://download.microsoft.com/download/3/8/6/386b08c5-2bde-4d8e-ba7c-1b53bdeaedf2/office2003-KB924423-v2-FullFile-CHT.exe
+Y,2009-12,978551,-,IRMPRTIDNMinus1,7882,http://download.microsoft.com/download/6/2/D/62DC7244-7B5D-48A3-9326-A0C0B7A4BB39/office2003-KB978551-FullFile-ENU.exe
+Y,2009-10,974554,-,FM20,21694,http://download.microsoft.com/download/9/B/E/9BE96CE4-4D63-40C3-B33D-8B904CF0BD03/office2003-KB974554-FullFile-CHT.exe
+Y,2010-12,2449798,-,OUTLOOK,13333,http://download.microsoft.com/download/5/2/0/5207A597-D398-4E8A-94EF-2744A63A4734/office2003-KB2449798-FullFile-CHT.exe
+Y,2011-06,2539581,-,RICHED20,26339,http://download.microsoft.com/download/0/6/4/0649087F-A799-4BA1-A57C-89F68BE4D4EC/office2003-KB2539581-FullFile-CHT.exe
+Y,2013-12,2863822,-,OUTLFLTR,41408,http://download.microsoft.com/download/7/F/C/7FCF7346-8A03-43B2-84F3-2060A92BAB42/office2003-KB2863822-FullFile-CHT.exe
+Y,2014-07,2883042,-,EXCEL,43595,http://download.microsoft.com/download/D/0/1/D013F3CF-1E32-4FFE-9DA5-B4223DC15D8A/office2003-KB2883042-FullFile-CHT.exe
