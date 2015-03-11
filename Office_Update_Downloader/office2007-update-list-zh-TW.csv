@@ -27,7 +27,7 @@ Y,2014-05,2880508,MS14-024,msaddndr,42847,http://download.microsoft.com/download
 Y,2014-06,2878233,MS14-036,ogl,43330,http://download.microsoft.com/download/3/E/D/3ED3A908-A0B0-468B-B9AB-29B35E2969B9/ogl2007-kb2878233-fullfile-x86-glb.exe
 Y,2014-06,2881069,MS14-036,usp10,43305,http://download.microsoft.com/download/2/8/F/28F20644-07B7-49ED-AABB-FF3FB1496B5E/usp102007-kb2881069-fullfile-x86-glb.exe
 Y,2014-08,2596857,MS14-048,onenote,43900,http://download.microsoft.com/download/5/9/2/59273530-C618-464E-AA3C-D5B7ECD75AC3/onenote2007-kb2596857-fullfile-x86-glb.exe
-Y,2014-12,2596927,MS14-082,fm20,45206,http://download.microsoft.com/download/6/F/1/6F1C8F6D-7A49-4E94-A612-D70505AAD3F0/fm202007-kb2596927-fullfile-x86-glb.exe
+N,2014-12,2596927,MS14-082,fm20,45206,http://download.microsoft.com/download/6/F/1/6F1C8F6D-7A49-4E94-A612-D70505AAD3F0/fm202007-kb2596927-fullfile-x86-glb.exe
 Y,2015-02,2920795,MS15-013,otkruntimertl,45838,http://download.microsoft.com/download/4/F/0/4F05951A-57A4-4736-AE7F-893B1540AA62/otkruntimertl2007-kb2920795-fullfile-x86-glb.exe
 Y,2015-03,2899580,MS15-022,powerpoint,46207,http://download.microsoft.com/download/8/1/0/8102C3ED-0A9C-4D81-A3BA-D88CCCB0A4FA/powerpoint2007-kb2899580-fullfile-x86-glb.exe
 Y,2015-03,2956103,MS15-022,excel,46106,http://download.microsoft.com/download/2/F/6/2F671C0E-B4CB-4EB9-B52A-13DAA304BFE8/excel2007-kb2956103-fullfile-x86-glb.exe
@@ -41,7 +41,8 @@ Y,2013-02,2767916,-,niceclass,36762,http://download.microsoft.com/download/2/A/1
 Y,2013-08,2767849,-,msxml5,39906,http://download.microsoft.com/download/4/C/8/4C8E6002-312F-4752-9A41-001A15EAA900/msxml52007-kb2767849-fullfile-x86-glb.exe
 Y,2014-04,2863811,-,outlook,42427,http://download.microsoft.com/download/E/4/5/E4570289-A920-449C-9683-8BF084D02C3E/outlook2007-kb2863811-fullfile-x86-glb.exe
 Y,2015-02,2596787,-,mstore,45823,http://download.microsoft.com/download/3/7/C/37C6540D-64A3-4406-A0AA-FB66A29567A3/mstore2007-kb2596787-fullfile-x86-glb.exe
-Y,2015-02,2956096,-,outlfltr,45818,http://download.microsoft.com/download/3/F/9/3F94117A-0A97-455D-BA87-D746E7958152/outlfltr2007-kb2956096-fullfile-x86-glb.exe
+Y,2015-03,2920794,-,fm20,46342,http://download.microsoft.com/download/B/4/7/B47A6C51-1C69-44FA-B77A-DDCE6FA25D3C/fm202007-kb2920794-fullfile-x86-glb.exe
+Y,2015-03,2956104,-,outlfltr,46343,http://download.microsoft.com/download/E/3/E/E3E4D088-59AB-4E47-A14F-99B2E9437006/outlfltr2007-kb2956104-fullfile-x86-glb.exe
 N,2009-04,963665,-,wordhelp,7878,http://download.microsoft.com/download/3/2/7/3277FF53-D4A7-4C0F-AC8D-BDA35314C8B6/office2007-kb963665-fullfile-x86-zh-tw.exe
 N,2009-04,963669,-,powerpointhelp,1634,http://download.microsoft.com/download/D/7/0/D70D6CA0-5976-4985-A3AA-735E823DE4EA/office2007-kb963669-fullfile-x86-zh-tw.exe
 N,2009-04,963671,-,officehelp,16723,http://download.microsoft.com/download/1/A/4/1A4F90F9-DD58-4139-A7F1-9391FF652AA0/office2007-kb963671-fullfile-x86-en-us.exe
