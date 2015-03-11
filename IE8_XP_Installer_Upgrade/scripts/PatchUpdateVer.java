@@ -32,7 +32,7 @@ public class PatchUpdateVer {
 public static void main(String[] args) {
     if (args.length < 2) {
         System.err.println("This program patches the \"update.ver\" file in the IE8 installer with the entries in an IE8 update.");
-        System.err.println("Usage: java PatchUpdateVer original_file patch_file branch");
+        System.err.println("Usage: java PatchUpdateVer original_file patch_file [branch]");
         System.err.println("Result is printed in standard output.");
         System.exit(0);
     }
