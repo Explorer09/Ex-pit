@@ -19,3 +19,4 @@ Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 2014-12, KB3012176, MS14-084, Replaces KB2909210, vbscript.dll
 2015-02, KB3021952, MS15-009, Replaces KB3008923 KB3012176, Cumulative
 2015-03, KB3032359, MS15-018, Replaces KB3021952, Cumulative
+2015-04, KB3038314, MS15-032, Replaces KB3032359, Cumulative
