@@ -1,8 +1,8 @@
 Please put the IE8 updates in this directory.
 The IE8 updates should have filenames like this:
     IE8-WindowsXP-KB2936068-x86-ENU.exe
-    IE8-WindowsServer2003-KB3038314-x86-ENU.exe
-    IE8-WindowsServer2003-KB3038314-x64-ENU.exe
+    IE8-WindowsServer2003-KB3049563-x86-ENU.exe
+    IE8-WindowsServer2003-KB3049563-x64-ENU.exe
 
 You may integrate multiple updates into the installer. When you do this,
 beware of the order of which updates are integrated. Update with a lower KB

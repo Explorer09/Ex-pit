@@ -1,10 +1,9 @@
-Since Windows XP goes End Of Support, there are a few updates released for IE8
-for Windows Server 2003 that are not available to Windows XP. This files lists
-the new security updates released for Windows Server 2003 after Windows XP goes
-EOL.
+Since Windows XP goes End of Support, there are updates released for IE8 for
+Windows Server 2003 that are not available to Windows XP. This file lists the
+security updates released for Windows Server 2003 after Windows XP goes EOL.
 
 Note that Windows XP x64 Edition can install IE8 updates targeted for Windows
-2003 x64 because the IE8 component in both OSes are identical.
+2003 x64 because the IE8 component in both operating systems are identical.
 
 Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 
@@ -20,3 +19,4 @@ Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 2015-02, KB3021952, MS15-009, Replaces KB3008923 KB3012176, Cumulative
 2015-03, KB3032359, MS15-018, Replaces KB3021952, Cumulative
 2015-04, KB3038314, MS15-032, Replaces KB3032359, Cumulative
+2015-05, KB3049563, MS15-043, Replaces KB3038314 KB2706045 KB2632503, Cumulative
