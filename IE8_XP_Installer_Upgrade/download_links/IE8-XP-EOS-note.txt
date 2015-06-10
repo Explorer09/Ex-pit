@@ -20,3 +20,4 @@ Date, KB number, Bulletin, Updates replaced, Patched files (if not cumulative)
 2015-03, KB3032359, MS15-018, Replaces KB3021952, Cumulative
 2015-04, KB3038314, MS15-032, Replaces KB3032359, Cumulative
 2015-05, KB3049563, MS15-043, Replaces KB3038314 KB2706045 KB2632503, Cumulative
+2015-06, KB3058515, MS15-056, Replaces KB3049563, Cumulative

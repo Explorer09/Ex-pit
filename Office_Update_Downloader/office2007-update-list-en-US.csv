@@ -1,5 +1,5 @@
 # For Office 2007 Enterprise edition - English (United States),,,,,,
-# Last updated: 2015-05-13 (2015-05 Patch Tuesday),,,,,,
+# Last updated: 2015-06-10 (2015-06 Patch Tuesday),,,,,,
 # Download?,Date,KB number,Security bulletin,Component,Download ID,Direct link
 Y,2009-04,967642,-,targetdir,21751,http://download.microsoft.com/download/1/7/8/1786AB14-3416-4642-8894-8D0C59F3DA08/office2007-kb967642-fullfile-x86-glb.exe
 Y,2011-11,2526086,SP3,office2007sp3,27838,http://download.microsoft.com/download/2/2/A/22AA9422-C45D-46FA-808F-179A1BEBB2A7/office2007sp3-kb2526086-fullfile-en-us.exe
@@ -17,7 +17,6 @@ Y,2013-09,2597973,MS13-072,msptls,40164,http://download.microsoft.com/download/4
 Y,2013-09,2596825,MS13-074,ace,40175,http://download.microsoft.com/download/A/8/7/A87CFD99-758D-4B53-AD7A-D320A7A99E27/ace2007-kb2596825-fullfile-x86-glb.exe
 Y,2013-10,2760585,MS13-085,oart,40617,http://download.microsoft.com/download/5/6/7/56737F30-A7CB-4DA6-91D4-92E812252A0F/oart2007-kb2760585-fullfile-x86-glb.exe
 Y,2013-10,2760591,MS13-085,oartconv,40620,http://download.microsoft.com/download/9/8/8/9881199B-96AE-4E8F-8F3A-2E1742CE98B8/oartconv2007-kb2760591-fullfile-x86-glb.exe
-Y,2013-11,2760415,MS13-091,convloc,41122,http://download.microsoft.com/download/6/5/1/6511CAC1-530B-47F6-BBE5-22021F612072/convloc2007-kb2760415-fullfile-x86-glb.exe
 N,2013-11,2825644,MS13-094,outlook,41114,http://download.microsoft.com/download/3/1/3/313552CE-26BD-4EB9-B9B9-D06106CA7ADB/outlook2007-kb2825644-fullfile-x86-glb.exe
 Y,2013-12,2850022,MS13-106,mshelp,41440,http://download.microsoft.com/download/0/F/6/0F645299-B0C3-48E7-95AE-186660587F35/mshelp2007-kb2850022-fullfile-x86-glb.exe
 Y,2014-04,2817565,MS14-020,publisher,42435,http://download.microsoft.com/download/8/6/3/863AB706-A087-4264-891F-5A29ABD9FB67/publisher2007-kb2817565-fullfile-x86-glb.exe
@@ -35,6 +34,7 @@ Y,2015-04,2965210,MS15-033,wordconv,46570,http://download.microsoft.com/download
 Y,2015-04,2965284,MS15-033,word,46567,http://download.microsoft.com/download/1/1/0/1109F8AC-B254-4399-97B9-85882BA85A98/word2007-kb2965284-fullfile-x86-glb.exe
 Y,2015-05,2883029,MS15-044,ogl,47108,http://download.microsoft.com/download/E/E/B/EEBBBA71-8ED4-4D93-A135-4A76A5CF6A88/ogl2007-kb2883029-fullfile-x86-glb.exe
 Y,2015-05,2965282,MS15-046,mso,47062,http://download.microsoft.com/download/1/F/A/1FA4C9ED-3DBC-4D49-8295-73054AA064EE/mso2007-kb2965282-fullfile-x86-glb.exe
+Y,2015-06,2863812,MS15-059,convloc,47495,http://download.microsoft.com/download/8/D/3/8D33A97B-5FB4-4C51-825D-FED8AFBCF4C2/convloc2007-kb2863812-fullfile-x86-glb.exe
 Y,2012-11,2687404,-,outlookloc,35718,http://download.microsoft.com/download/6/0/5/6055C934-DA73-4DCD-9D4D-D4F71961CE37/outlookloc2007-kb2687404-fullfile-x86-glb.exe
 Y,2013-02,2596620,-,osetup,36733,http://download.microsoft.com/download/3/7/D/37D355E3-F58F-46B2-BDC5-168FF00D2272/osetup2007-kb2596620-fullfile-x86-glb.exe
 Y,2013-02,2767916,-,niceclass,36762,http://download.microsoft.com/download/2/A/1/2A1977B6-B8CE-4EAB-AD0F-F673E6E95AE7/niceclass2007-kb2767916-fullfile-x86-glb.exe
