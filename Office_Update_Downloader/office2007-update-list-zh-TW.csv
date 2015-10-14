@@ -1,5 +1,5 @@
 # For Office 2007 Enterprise edition - Chinese Traditional,,,,,,
-# Last updated: 2015-09-09 (2015-09 Patch Tuesday),,,,,,
+# Last updated: 2015-10-14 (2015-10 Patch Tuesday),,,,,,
 # Download?,Date,KB number,Security bulletin,Component,Download ID,Direct link
 Y,2009-04,967642,-,targetdir,21751,http://download.microsoft.com/download/1/7/8/1786AB14-3416-4642-8894-8D0C59F3DA08/office2007-kb967642-fullfile-x86-glb.exe
 Y,2011-11,2526086,SP3,office2007sp3,27838,http://download.microsoft.com/download/5/4/B/54BD238B-40C9-478D-A19F-28AA2B7482DB/office2007sp3-kb2526086-fullfile-zh-tw.exe
@@ -34,15 +34,15 @@ Y,2015-08,3055052,MS15-081,word,48493,http://download.microsoft.com/download/7/5
 Y,2015-08,2825645,MS15-084,msxml5,48469,http://download.microsoft.com/download/0/3/7/037FD836-AF75-48D6-BB47-A43ED81279E1/msxml52007-kb2825645-fullfile-x86-glb.exe
 Y,2015-09,3085546,MS15-097,ogl,48900,http://download.microsoft.com/download/B/E/4/BE456215-1542-4090-94DB-6F75AB4379CB/ogl2007-kb3085546-fullfile-x86-glb.exe
 Y,2015-09,3054987,MS15-099,convloc,48895,http://download.microsoft.com/download/8/D/3/8D339524-D0AE-476D-B5A8-896BB8A1B244/convloc2007-kb3054987-fullfile-x86-glb.exe
-Y,2015-09,3054993,MS15-099,xlconv,48925,http://download.microsoft.com/download/1/D/1/1D1FE0CE-8002-4EFE-B8D1-9CEAA85F1392/xlconv2007-kb3054993-fullfile-x86-glb.exe
-Y,2015-09,3085543,MS15-099,excel,48931,http://download.microsoft.com/download/C/3/8/C38681D1-5C07-4677-B97C-0E85711418A5/excel2007-kb3085543-fullfile-x86-glb.exe
+Y,2015-10,3085615,MS15-110,excel,49310,http://download.microsoft.com/download/0/E/D/0EDFF1DE-D304-497D-83FC-3C2395E558EC/excel2007-kb3085615-fullfile-x86-glb.exe
+Y,2015-10,3085618,MS15-110,xlconv,49394,http://download.microsoft.com/download/2/6/B/26BFCA12-3EC7-4FFC-8824-438FC7A1951D/xlconv2007-kb3085618-fullfile-x86-glb.exe
 Y,2012-11,2687404,-,outlookloc,35718,http://download.microsoft.com/download/6/0/5/6055C934-DA73-4DCD-9D4D-D4F71961CE37/outlookloc2007-kb2687404-fullfile-x86-glb.exe
 Y,2013-02,2596620,-,osetup,36733,http://download.microsoft.com/download/3/7/D/37D355E3-F58F-46B2-BDC5-168FF00D2272/osetup2007-kb2596620-fullfile-x86-glb.exe
 Y,2013-02,2767916,-,niceclass,36762,http://download.microsoft.com/download/2/A/1/2A1977B6-B8CE-4EAB-AD0F-F673E6E95AE7/niceclass2007-kb2767916-fullfile-x86-glb.exe
 Y,2014-04,2863811,-,outlook,42427,http://download.microsoft.com/download/E/4/5/E4570289-A920-449C-9683-8BF084D02C3E/outlook2007-kb2863811-fullfile-x86-glb.exe
 Y,2015-02,2596787,-,mstore,45823,http://download.microsoft.com/download/3/7/C/37C6540D-64A3-4406-A0AA-FB66A29567A3/mstore2007-kb2596787-fullfile-x86-glb.exe
 Y,2015-07,2965286,-,fm20,48053,http://download.microsoft.com/download/0/2/9/029B17F2-5AF4-4345-ACD0-4D37E76A9669/fm202007-kb2965286-fullfile-x86-glb.exe
-Y,2015-09,3085547,-,outlfltr,48920,http://download.microsoft.com/download/E/F/2/EF22511A-F1F2-41A8-BEFE-D19AE19D5699/outlfltr2007-kb3085547-fullfile-x86-glb.exe
+Y,2015-10,3085617,-,outlfltr,49322,http://download.microsoft.com/download/A/5/5/A553BC65-C5E4-4B9F-A671-AEA171070BBA/outlfltr2007-kb3085617-fullfile-x86-glb.exe
 N,2009-04,963665,-,wordhelp,7878,http://download.microsoft.com/download/3/2/7/3277FF53-D4A7-4C0F-AC8D-BDA35314C8B6/office2007-kb963665-fullfile-x86-zh-tw.exe
 N,2009-04,963669,-,powerpointhelp,1634,http://download.microsoft.com/download/D/7/0/D70D6CA0-5976-4985-A3AA-735E823DE4EA/office2007-kb963669-fullfile-x86-zh-tw.exe
 N,2009-04,963671,-,officehelp,16723,http://download.microsoft.com/download/1/A/4/1A4F90F9-DD58-4139-A7F1-9391FF652AA0/office2007-kb963671-fullfile-x86-en-us.exe
