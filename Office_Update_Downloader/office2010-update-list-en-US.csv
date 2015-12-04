@@ -1,0 +1,186 @@
+# Download?,Date,KB number,Security bulletin,Component(s),Bits,Download ID,Direct link
+# ,,,,,,, For Office Professional Plus 2010 - English (United States)
+# ,,,,,,, Last updated: 2015-12-04 (2015-11 Patch Tuesday)
+# ,,,,,,, THIS IS WORK IN PROGRESS AND NOT YET FINAL!!
+N1,2011-09,2553092,-,targetdir,32,26926,https://download.microsoft.com/download/6/8/9/68996E10-503A-4DD0-B044-D96E7FE712D5/office2010-kb2553092-fullfile-x86-glb.exe
+N1,2011-09,2553092,-,targetdir,64,26925,https://download.microsoft.com/download/E/0/C/E0CA7F7B-7991-4514-B9D2-960005DD3198/office2010-kb2553092-fullfile-x64-glb.exe
+N,2011-09,2566445,MS11-074,groove,32,27373,https://download.microsoft.com/download/C/B/3/CB3D19D9-7BD2-458E-A485-4BC957E5CCF9/workspaces2010-kb2566445-fullfile-x86-glb.exe
+N,2011-09,2566445,MS11-074,groove,64,27363,https://download.microsoft.com/download/C/E/9/CE943798-0C70-4173-8AE5-9D89FB959518/workspaces2010-kb2566445-fullfile-x64-glb.exe
+N,2011-09,2553065,-,gkall,32,27308,https://download.microsoft.com/download/A/F/7/AF70BFC5-87F8-47EA-B204-5A18C386B685/office2010-kb2553065-fullfile-x86-glb.exe
+N,2011-09,2553065,-,gkall,64,27338,https://download.microsoft.com/download/4/1/C/41CADC65-8F27-4387-A1FF-1A7A3AF03F0F/office2010-kb2553065-fullfile-x64-glb.exe
+N,2011-11,2553310,-,mso msointl,32,27948,https://download.microsoft.com/download/8/5/6/85694165-EFC7-4705-A020-1FBEF9CB8F01/msoloc2010-kb2553310-fullfile-x86-glb.exe
+N,2011-11,2553310,-,mso msointl,64,27949,https://download.microsoft.com/download/3/C/2/3C2E1343-99F0-4C45-A51F-CBE71D1DC1FD/msoloc2010-kb2553310-fullfile-x64-glb.exe
+N,2011-11,2553290,-,onenote onenoteintl,32,27944,https://download.microsoft.com/download/8/6/0/8605DC39-6C70-44D8-B19F-DA8AA2DD95B9/onenoteloc2010-kb2553290-fullfile-x86-glb.exe
+N,2011-11,2553290,-,onenote onenoteintl,64,27947,https://download.microsoft.com/download/F/F/A/FFA78790-B2F9-420F-9105-DF1D70D90ABC/onenoteloc2010-kb2553290-fullfile-x64-glb.exe
+N,2012-04,2553406,-,osc oscintl,32,29382,https://download.microsoft.com/download/4/8/3/48371A68-2CCD-4521-936D-EBBC93A24C10/oscloc2010-kb2553406-fullfile-x86-glb.exe
+N,2012-04,2553406,-,osc oscintl,64,29393,https://download.microsoft.com/download/4/0/7/407CB76A-2AD7-4A95-8E7A-E27281506A96/oscloc2010-kb2553406-fullfile-x64-glb.exe
+Y,2013-07,2687455,SP2,(officesp),32,39667,https://download.microsoft.com/download/4/9/9/499A1B0D-6FF3-466E-888E-DC7D7C788A61/officesp2010-kb2687455-fullfile-x86-en-us.exe
+Y,2013-07,2687455,SP2,(officesp),64,39647,https://download.microsoft.com/download/1/F/6/1F6654C2-CF7F-49A0-B01C-E278A2FA5D41/officesp2010-kb2687455-fullfile-x64-en-us.exe
+Y1,2013-08,2825640,-,targetdir,32,39954,https://download.microsoft.com/download/D/7/A/D7A3C625-0963-4726-8D5C-48615494D8B1/targetdir2010-kb2825640-fullfile-x86-glb.exe
+Y1,2013-08,2825640,-,targetdir,64,39953,https://download.microsoft.com/download/5/8/7/587A83A3-E0CA-4865-96C8-475636E7B6B9/targetdir2010-kb2825640-fullfile-x64-glb.exe
+Y1,2013-09,2794737,-,osetup,32,40224,https://download.microsoft.com/download/4/F/E/4FE64275-7025-49FA-9698-991279AF41DC/osetup2010-kb2794737-fullfile-x86-glb.exe
+Y1,2013-09,2794737,-,osetup,64,40200,https://download.microsoft.com/download/7/9/5/795990A4-DDCA-4591-928C-392B4C26E2C4/osetup2010-kb2794737-fullfile-x64-glb.exe
+N,2013-09,2760598,-,csi,32,40228,https://download.microsoft.com/download/D/7/5/D75F4327-F4FF-46D4-82BB-6EEF2AF3734D/csi2010-kb2760598-fullfile-x86-glb.exe
+N,2013-09,2760598,-,csi,64,40212,https://download.microsoft.com/download/8/7/0/870B473F-C2FB-46F7-BBC2-26E011DC98CF/csi2010-kb2760598-fullfile-x64-glb.exe
+Y1,2013-09,2589375,-,msocf,32,40231,https://download.microsoft.com/download/E/8/C/E8CF9465-F44F-417E-A59F-951FF3A1A918/msocf2010-kb2589375-fullfile-x86-glb.exe
+Y1,2013-09,2589375,-,msocf,64,40223,https://download.microsoft.com/download/A/C/4/AC485AF9-4D3A-4B78-9F57-120B46C65162/msocf2010-kb2589375-fullfile-x64-glb.exe
+Y1,2013-09,2589298,-,gfx,32,40208,https://download.microsoft.com/download/9/3/3/9338F535-8BD5-4E1E-8930-8A775C8D39D7/gfx2010-kb2589298-fullfile-x86-glb.exe
+Y1,2013-09,2589298,-,gfx,64,40237,https://download.microsoft.com/download/8/1/0/810F6E24-6A5A-48BE-B156-6825550B5C90/gfx2010-kb2589298-fullfile-x64-glb.exe
+N,2013-09,2553446,-,access,32,40182,https://download.microsoft.com/download/8/5/6/856E43F7-7C1D-409C-AF89-0927843CEB23/access2010-kb2553446-fullfile-x86-glb.exe
+N,2013-09,2553446,-,access,64,40195,https://download.microsoft.com/download/0/E/3/0E391A72-BD73-41B7-B28A-B71942E55E39/access2010-kb2553446-fullfile-x64-glb.exe
+N1,2013-09,2687423,MS13-074,ace,32,40179,https://download.microsoft.com/download/0/2/5/02511024-2234-49B2-85AF-6870BD4A7FBC/ace2010-kb2687423-fullfile-x86-glb.exe
+N1,2013-09,2687423,MS13-074,ace,64,40178,https://download.microsoft.com/download/B/4/F/B4F75602-6F79-42DA-94A5-3E3282463A85/ace2010-kb2687423-fullfile-x64-glb.exe
+N,2013-10,2826033,MS13-085,excel,32,40641,https://download.microsoft.com/download/6/C/3/6C325C9B-5E29-42E3-BD54-C729DE6914DA/excel2010-kb2826033-fullfile-x86-glb.exe
+N,2013-10,2826033,MS13-085,excel,64,40673,https://download.microsoft.com/download/0/8/B/08B5F371-E04A-4B39-871C-35795C6426A1/excel2010-kb2826033-fullfile-x64-glb.exe
+Y1,2013-11,2597087,-,msores,32,41105,https://download.microsoft.com/download/9/7/D/97DECAC9-C2F5-46E8-96F2-D6267DD6BAED/msores2010-kb2597087-fullfile-x86-glb.exe
+Y1,2013-11,2597087,-,msores,64,41106,https://download.microsoft.com/download/F/4/B/F4BF7808-EC68-40AA-8600-3C421E498FA5/msores2010-kb2597087-fullfile-x64-glb.exe
+Y1,2013-11,2589352,-,oleo,32,41108,https://download.microsoft.com/download/D/C/0/DC0E808B-7AB3-4FBB-AE0E-974EC86FC904/oleo2010-kb2589352-fullfile-x86-glb.exe
+Y1,2013-11,2589352,-,oleo,64,41119,https://download.microsoft.com/download/7/F/A/7FA4CD52-DF4B-4B2B-8A55-35B7F0118945/oleo2010-kb2589352-fullfile-x64-glb.exe
+N1,2013-11,2837597,MS13-094,outlook,32,41116,https://download.microsoft.com/download/1/4/2/142BCEBF-605B-4EC3-813B-2971D5F12169/outlook2010-kb2837597-fullfile-x86-glb.exe
+N1,2013-11,2837597,MS13-094,outlook,64,41104,https://download.microsoft.com/download/9/1/5/91533135-EF15-45F0-9720-2F81CF8D6218/outlook2010-kb2837597-fullfile-x64-glb.exe
+N,2013-11,2553284,MS13-091,convintl,32,41111,https://download.microsoft.com/download/4/C/5/4C5B6992-015F-49A2-99EA-82CDC1A9F90E/convloc2010-kb2553284-fullfile-x86-glb.exe
+N,2013-11,2553284,MS13-091,convintl,64,41118,https://download.microsoft.com/download/2/E/4/2E4699DC-BE57-4A03-B136-9635D92624C1/convloc2010-kb2553284-fullfile-x64-glb.exe
+Y1,2013-12,2850016,MS13-106,mshelp,32,41499,https://download.microsoft.com/download/C/D/8/CD8A3590-D8E1-4A7F-AF97-D66DCFC6AEB4/mshelp2010-kb2850016-fullfile-x86-glb.exe
+Y1,2013-12,2850016,MS13-106,mshelp,64,41506,https://download.microsoft.com/download/C/8/2/C820D7BC-BE4F-4A91-860C-CA7C7A20F177/mshelp2010-kb2850016-fullfile-x64-glb.exe
+Y1,2014-02,2760601,-,groove,32,41910,https://download.microsoft.com/download/5/D/6/5D6FF1BC-BE0D-4167-9949-808C1906F6F6/groove2010-kb2760601-fullfile-x86-glb.exe
+Y1,2014-02,2760601,-,groove,64,41909,https://download.microsoft.com/download/6/7/7/677A900A-C89E-43A3-B5A4-8BA5643AB11E/groove2010-kb2760601-fullfile-x64-glb.exe
+N,2014-02,2687567,-,outlook outlookintl,32,41924,https://download.microsoft.com/download/2/6/A/26AC46AC-83DB-4CB3-9513-46F20B387C9C/outlookloc2010-kb2687567-fullfile-x86-glb.exe
+N,2014-02,2687567,-,outlook outlookintl,64,41926,https://download.microsoft.com/download/9/B/B/9BB568A1-04C1-4BF3-8A62-0003E766F957/outlookloc2010-kb2687567-fullfile-x64-glb.exe
+N,2014-02,2837595,-,onenote,32,41908,https://download.microsoft.com/download/5/2/7/527682F4-CABF-41AF-86DC-B4E406FD7895/onenote2010-kb2837595-fullfile-x86-glb.exe
+N,2014-02,2837595,-,onenote,64,41917,https://download.microsoft.com/download/C/1/3/C13D5765-568F-4A25-85B6-AE959D63B976/onenote2010-kb2837595-fullfile-x64-glb.exe
+N,2014-02,2817396,-,infopath,32,41914,https://download.microsoft.com/download/0/D/1/0D11C148-7F8C-4D93-95F8-36DCD75C08FC/infopath2010-kb2817396-fullfile-x86-glb.exe
+N,2014-02,2817396,-,infopath,64,41919,https://download.microsoft.com/download/A/2/5/A2588528-0413-4836-8E81-947E2BAD1FEB/infopath2010-kb2817396-fullfile-x64-glb.exe
+Y1,2014-02,2817369,-,ipeditor,32,41921,https://download.microsoft.com/download/6/8/9/6898AFCC-5636-4F50-BE8A-1C7E93AAA2F3/ipeditor2010-kb2817369-fullfile-x86-glb.exe
+Y1,2014-02,2817369,-,ipeditor,64,41916,https://download.microsoft.com/download/3/2/D/32D75E13-CABC-40B4-99BE-B330FBFB0533/ipeditor2010-kb2817369-fullfile-x64-glb.exe
+N,2014-04,2837579,-,powerpoint powerpointintl,32,42491,https://download.microsoft.com/download/E/E/F/EEFE9C56-DCF6-4A3A-89DF-04ADE66A5700/powerpointloc2010-kb2837579-fullfile-x86-glb.exe
+N,2014-04,2837579,-,powerpoint powerpointintl,64,42490,https://download.microsoft.com/download/C/5/D/C5D1D2D8-3E31-43D6-9488-40D66AB8BE1C/powerpointloc2010-kb2837579-fullfile-x64-glb.exe
+N,2014-05,2837587,-,vviewer,32,42907,https://download.microsoft.com/download/7/1/D/71D24A11-98F0-46B4-9F9A-C90CB1265D44/vviewer2010-kb2837587-fullfile-x86-glb.exe
+N,2014-05,2837587,-,vviewer,64,42893,https://download.microsoft.com/download/1/9/E/19ECA481-0FE9-4987-AC20-DC64EBA68A2B/vviewer2010-kb2837587-fullfile-x64-glb.exe
+N,2014-05,2880526,-,visio visiointl,32,42926,https://download.microsoft.com/download/5/1/D/51DD3C2E-B7B7-46C1-ABB3-131018010C5C/visioloc2010-kb2880526-fullfile-x86-glb.exe
+N,2014-05,2880526,-,visio visiointl,64,42891,https://download.microsoft.com/download/C/7/E/C7EA878B-3483-4D1E-991F-D486E3EDC3A0/visioloc2010-kb2880526-fullfile-x64-glb.exe
+Y1,2014-05,2825635,-,gkall,32,42927,https://download.microsoft.com/download/7/3/6/73669BA0-3B47-4F09-85F8-7B1A7AC66353/gkall2010-kb2825635-fullfile-x86-glb.exe
+Y1,2014-05,2825635,-,gkall,64,42906,https://download.microsoft.com/download/4/8/F/48FE0525-9483-4B0C-8084-1AEE91DD0A56/gkall2010-kb2825635-fullfile-x64-glb.exe
+N,2014-05,2878281,-,filterpack,32,42929,https://download.microsoft.com/download/4/E/5/4E566F54-336C-400E-B266-384BCE0EBC68/filterpack2010-kb2878281-fullfile-x86-glb.exe
+N,2014-05,2878281,-,filterpack,64,42914,https://download.microsoft.com/download/1/C/3/1C354FF7-FC68-481D-A231-A1011055D985/filterpack2010-kb2878281-fullfile-x64-glb.exe
+Y1,2014-05,2880971,MS14-024,msaddndr,32,42867,https://download.microsoft.com/download/D/0/3/D033D081-B90A-432E-A750-6C28B5210E48/msaddndr2010-kb2880971-fullfile-x86-glb.exe
+Y1,2014-05,2880971,MS14-024,msaddndr,64,42840,https://download.microsoft.com/download/6/7/2/6726FA11-F4F5-4975-94EB-9D9B6A631D64/msaddndr2010-kb2880971-fullfile-x64-glb.exe
+N,2014-05,2878284,MS14-023,proof,32,42794,https://download.microsoft.com/download/E/E/3/EE306CE7-DEEE-4FCD-9B38-570181111165/proofloc2010-kb2878284-fullfile-x86-glb.exe
+N,2014-05,2878284,MS14-023,proof,64,42881,https://download.microsoft.com/download/A/5/1/A51AEFA2-D314-4A1E-AD01-5E2E3DBB759C/proofloc2010-kb2878284-fullfile-x64-glb.exe
+Y1,2014-05,2810073,MS14-024,mscomctlocx,32,42879,https://download.microsoft.com/download/F/6/D/F6DA25E9-F9F2-4858-AD14-DA8917288F82/mscomctlocx2010-kb2810073-fullfile-x86-glb.exe
+# ,,,,,,, There is no KB2810073 64-bit update.
+N,2014-06,2863942,MS14-036,ogl,32,43337,https://download.microsoft.com/download/7/2/6/7263B7C1-CAB6-4D8D-81B0-0E2BBEE8235A/ogl2010-kb2863942-fullfile-x86-glb.exe
+N,2014-06,2863942,MS14-036,ogl,64,43328,https://download.microsoft.com/download/7/6/E/76EFBD09-7C06-489C-B3E7-54F9A5AC35EB/ogl2010-kb2863942-fullfile-x64-glb.exe
+N,2014-07,2878252,-,mso,32,43600,https://download.microsoft.com/download/6/D/D/6DDE4B0B-9033-4DE6-A56E-97143457DAEA/mso2010-kb2878252-fullfile-x86-glb.exe
+N,2014-07,2878252,-,mso,64,43574,https://download.microsoft.com/download/0/2/0/02034B53-33BB-4893-88D8-8A85D060CB2C/mso2010-kb2878252-fullfile-x64-glb.exe
+Y1,2014-08,2881071,MS14-036,usp10,32,43901,https://download.microsoft.com/download/9/0/C/90C4B6BE-DCDE-4808-A9FC-E85C12A40DD7/usp102010-kb2881071-fullfile-x86-glb.exe
+Y1,2014-08,2881071,MS14-036,usp10,64,43899,https://download.microsoft.com/download/F/C/7/FC75138F-744F-405E-A5F3-A46AC19ECAE4/usp102010-kb2881071-fullfile-x64-glb.exe
+N,2014-09,2889836,-,excel,32,44095,https://download.microsoft.com/download/B/A/9/BA992C28-CE00-483D-A5DC-A800BD985D8A/excel2010-kb2889836-fullfile-x86-glb.exe
+N,2014-09,2889836,-,excel,64,44128,https://download.microsoft.com/download/9/B/2/9B2DEC40-DFBC-4C35-AE24-36B5A26C7D36/excel2010-kb2889836-fullfile-x64-glb.exe
+N,2014-10,2883013,MS14-061,word,32,44416,https://download.microsoft.com/download/F/3/A/F3A3572E-2DA3-46BD-A13D-A9F74A69FFB8/word2010-kb2883013-fullfile-x86-glb.exe
+N,2014-10,2883013,MS14-061,word,64,44371,https://download.microsoft.com/download/7/1/7/71716526-0223-4907-B844-D5D4D55B7BB9/word2010-kb2883013-fullfile-x64-glb.exe
+N,2014-11,2889828,-,proof,32,44866,https://download.microsoft.com/download/3/6/A/36AC933C-52AC-45BA-8F74-5DE4962B31CD/proofloc2010-kb2889828-fullfile-x86-glb.exe
+N,2014-11,2889828,-,proof,64,44876,https://download.microsoft.com/download/E/A/E/EAE0379B-B714-4BBE-A4D8-EE4B1D0B6CC7/proofloc2010-kb2889828-fullfile-x64-glb.exe
+N,2015-03,2889839,MS15-022,oartconv,32,46142,https://download.microsoft.com/download/0/6/C/06C72302-053D-4A96-9B04-54E2DD31F92B/oartconv2010-kb2889839-fullfile-x86-glb.exe
+N,2015-03,2889839,MS15-022,oartconv,64,46186,https://download.microsoft.com/download/F/9/8/F98EB29A-C0C4-47B7-A5FA-EC55CFB731BF/oartconv2010-kb2889839-fullfile-x64-glb.exe
+N,2015-03,2883100,MS15-022,oart,32,46092,https://download.microsoft.com/download/1/2/C/12C18D93-4F9A-460E-8B98-824D9FFC04E4/oart2010-kb2883100-fullfile-x86-glb.exe
+N,2015-03,2883100,MS15-022,oart,64,46192,https://download.microsoft.com/download/8/0/5/80561C90-595F-4B9A-893E-BFB9FDC2F261/oart2010-kb2883100-fullfile-x64-glb.exe
+Y1,2015-07,2553347,-,ocfxca,32,48067,https://download.microsoft.com/download/1/8/4/184D3C44-7EFE-499D-B530-4D46A2CF5FE0/ocfxca2010-kb2553347-fullfile-x86-glb.exe
+Y1,2015-07,2553347,-,ocfxca,64,48048,https://download.microsoft.com/download/E/6/1/E61D9E63-8589-4DB4-A1C4-E409FD8C7EB5/ocfxca2010-kb2553347-fullfile-x64-glb.exe
+Y1,2015-11,3101540,-,outlfltr,32,49868,https://download.microsoft.com/download/D/2/2/D224224D-AA30-4AE8-86E6-034CA2109F5A/outlfltr2010-kb3101540-fullfile-x86-glb.exe
+Y1,2015-11,3101540,-,outlfltr,64,49829,https://download.microsoft.com/download/7/9/2/792B4D48-50CD-4115-AB32-4BE6EB9251FB/outlfltr2010-kb3101540-fullfile-x64-glb.exe
+Y1,2015-07,3001652,-,vstor,-,48217,https://download.microsoft.com/download/7/A/F/7AFA5695-2B52-44AA-9A2D-FC431C231EDC/vstor_redist.exe
+# ,,,,,,, offered after sp2 is installed:
+Y1,2014-11,2687275,-,graph,32,44851,https://download.microsoft.com/download/2/1/D/21DD717E-51AD-45B1-8ACC-4D171AC32A4A/graph2010-kb2687275-fullfile-x86-glb.exe
+Y1,2014-11,2687275,-,graph,64,44842,https://download.microsoft.com/download/D/B/A/DBAC1377-506C-4B87-90E9-F1CEDFE406F6/graph2010-kb2687275-fullfile-x64-glb.exe
+Y1,2014-11,2589386,-,gfonts,32,44797,https://download.microsoft.com/download/8/B/0/8B04E37D-B53E-4936-9C29-6F92F8EBC162/gfonts2010-kb2589386-fullfile-x86-glb.exe
+Y1,2014-11,2589386,-,gfonts,64,44859,https://download.microsoft.com/download/7/A/1/7A17E78F-F286-4874-A4A0-C83B15A7B43B/gfonts2010-kb2589386-fullfile-x64-glb.exe
+N1,2014-12,2553154,MS14-082,fm20,32,45224,https://download.microsoft.com/download/2/1/9/21974A99-AA0C-487D-937F-909326373094/fm202010-kb2553154-fullfile-x86-glb.exe
+N1,2014-12,2553154,MS14-082,fm20,64,45210,https://download.microsoft.com/download/4/4/E/44E61C21-1BE4-46A2-BC08-742050407807/fm202010-kb2553154-fullfile-x64-glb.exe
+Y1,2014-12,2553140,-,mstore,32,45235,https://download.microsoft.com/download/A/F/1/AF1033B5-1643-46BB-815A-67292A28A016/mstore2010-kb2553140-fullfile-x86-glb.exe
+Y1,2014-12,2553140,-,mstore,64,45286,https://download.microsoft.com/download/8/6/B/86BA015D-898C-4D6F-B7F5-B658F49C3E17/mstore2010-kb2553140-fullfile-x64-glb.exe
+Y1,2014-12,2883019,-,ospp,32,45232,https://download.microsoft.com/download/F/4/3/F432D5D7-4EEA-4EF5-933F-58B2177F479D/ospp2010-kb2883019-fullfile-x86-glb.exe
+Y1,2014-12,2883019,-,ospp,64,45252,https://download.microsoft.com/download/6/1/9/61967A34-8C86-42C2-8285-60FD35D715CA/ospp2010-kb2883019-fullfile-x64-glb.exe
+Y1,2015-02,2920748,MS15-013,otkruntimertl,32,45832,https://download.microsoft.com/download/4/B/C/4BC9CCA7-8EB6-42F4-81EA-9EA60D611202/otkruntimertl2010-kb2920748-fullfile-x86-glb.exe
+Y1,2015-02,2920748,MS15-013,otkruntimertl,64,45813,https://download.microsoft.com/download/F/C/5/FC5C15DF-D7A3-459E-BCBD-AC6F279CBC42/otkruntimertl2010-kb2920748-fullfile-x64-glb.exe
+N1,2015-02,2956073,MS15-012,proof,32,45777,https://download.microsoft.com/download/E/C/6/EC6B83C0-2805-499E-B5D0-CE0C64A9CB32/proofloc2010-kb2956073-fullfile-x86-glb.exe
+N1,2015-02,2956073,MS15-012,proof,64,45772,https://download.microsoft.com/download/0/2/A/02A6CA2C-707E-4142-97F1-4802B11477BA/proofloc2010-kb2956073-fullfile-x64-glb.exe
+Y1,2015-03,2920812,MS15-022,powerpoint powerpointintl,32,46075,https://download.microsoft.com/download/9/A/E/9AE4A765-7588-4B57-AF1D-72063DAD3E97/powerpointloc2010-kb2920812-fullfile-x86-glb.exe
+Y1,2015-03,2920812,MS15-022,powerpoint powerpointintl,64,46190,https://download.microsoft.com/download/8/E/F/8EF71E57-13DD-455C-A713-2FD0993DF70B/powerpointloc2010-kb2920812-fullfile-x64-glb.exe
+Y1,2015-03,2956076,MS15-022,mso msointl,32,46197,https://download.microsoft.com/download/4/3/9/439F0372-FD78-4B68-A75E-008C4A718905/msoloc2010-kb2956076-fullfile-x86-glb.exe
+Y1,2015-03,2956076,MS15-022,mso msointl,64,46246,https://download.microsoft.com/download/6/0/0/6009EAF9-D4D5-4651-9ED2-43CA60AE5ED3/msoloc2010-kb2956076-fullfile-x64-glb.exe
+N1,2015-04,2881025,-,visio visiointl,32,46618,https://download.microsoft.com/download/1/5/9/1598378D-5B38-4D54-B72C-9B8CBE49FADE/visioloc2010-kb2881025-fullfile-x86-glb.exe
+N1,2015-04,2881025,-,visio visiointl,64,46617,https://download.microsoft.com/download/3/7/6/3761E693-7A2A-406E-983F-B0339C4C7B19/visioloc2010-kb2881025-fullfile-x64-glb.exe
+Y1,2015-04,2881026,-,filterpack,32,46633,https://download.microsoft.com/download/4/C/A/4CA40D1C-180A-46A8-9A28-D80E7234D793/filterpack2010-kb2881026-fullfile-x86-glb.exe
+Y1,2015-04,2881026,-,filterpack,64,46579,https://download.microsoft.com/download/8/A/F/8AF5B05C-2F7E-49DB-9E9C-212F2E3D2CDD/filterpack2010-kb2881026-fullfile-x64-glb.exe
+Y1,2015-04,2881021,-,vviewer,32,46577,https://download.microsoft.com/download/0/C/F/0CFBB751-3736-4FD7-90A3-E29769642219/vviewer2010-kb2881021-fullfile-x86-glb.exe
+Y1,2015-04,2881021,-,vviewer,64,46629,https://download.microsoft.com/download/C/3/5/C35D7F20-D601-4B61-BAE6-BE7840B7C1D7/vviewer2010-kb2881021-fullfile-x64-glb.exe
+Y1,2015-04,2956084,-,excel excelintl,32,46611,https://download.microsoft.com/download/1/E/B/1EBF1394-B57D-4DDA-AFB5-C3D33B61BB04/excelloc2010-kb2956084-fullfile-x86-glb.exe
+Y1,2015-04,2956084,-,excel excelintl,64,46601,https://download.microsoft.com/download/E/F/8/EF880C6A-5CB5-4046-A5E0-C3733088BE0B/excelloc2010-kb2956084-fullfile-x64-glb.exe
+N1,2015-06,3054834,MS15-046,oart,32,47500,https://download.microsoft.com/download/1/C/2/1C2B134A-48F5-4673-8CCA-68B6D7CDAD65/oart2010-kb3054834-fullfile-x86-glb.exe
+N1,2015-06,3054834,MS15-046,oart,64,47491,https://download.microsoft.com/download/D/4/0/D400F6B3-C03F-4C06-9FBE-D8A51C7950AC/oart2010-kb3054834-fullfile-x64-glb.exe
+Y1,2015-06,3054848,MS15-046,oartconv,32,47531,https://download.microsoft.com/download/D/E/D/DED88935-675C-4CFE-BB7D-486DF26095FD/oartconv2010-kb3054848-fullfile-x86-glb.exe
+Y1,2015-06,3054848,MS15-046,oartconv,64,47570,https://download.microsoft.com/download/2/4/2/242384E9-0304-4713-9306-F15287FC3733/oartconv2010-kb3054848-fullfile-x64-glb.exe
+Y1,2015-06,2553308,-,osc,32,47532,https://download.microsoft.com/download/4/8/2/482AE47F-721A-4FCA-936B-45460D553ADE/osc2010-kb2553308-fullfile-x86-glb.exe
+Y1,2015-06,2553308,-,osc,64,47576,https://download.microsoft.com/download/F/C/B/FCB3043D-35AD-4B76-93A6-5C1C2106ED36/osc2010-kb2553308-fullfile-x64-glb.exe
+Y1,2015-07,3054873,-,fm20,32,48091,https://download.microsoft.com/download/3/E/6/3E643EF5-2E77-4CF0-811E-699A3FD1ED77/fm202010-kb3054873-fullfile-x86-glb.exe
+Y1,2015-07,3054873,-,fm20,64,48104,https://download.microsoft.com/download/A/8/D/A8DB6BF0-8B9A-4FF4-9DA8-35CDCE3B8F7B/fm202010-kb3054873-fullfile-x64-glb.exe
+Y1,2015-08,2553313,MS15-081,ieawsdc,32,48512,https://download.microsoft.com/download/B/D/B/BDB9AB27-2787-4CEE-8491-317FC8B094BC/ieawsdc2010-kb2553313-fullfile-x86-glb.exe
+Y1,2015-08,2553313,MS15-081,ieawsdc,64,48510,https://download.microsoft.com/download/D/4/2/D42174F9-B900-4094-ADF7-0E0A2B64DAB1/ieawsdc2010-kb2553313-fullfile-x64-glb.exe
+Y1,2015-08,2965310,MS15-081,vbe7,32,48481,https://download.microsoft.com/download/D/D/5/DD54174E-8A8C-4E39-AE2E-6164997FD580/vbe72010-kb2965310-fullfile-x86-glb.exe
+Y1,2015-08,2965310,MS15-081,vbe7,64,48507,https://download.microsoft.com/download/2/0/B/20BA4A0B-A66D-44F3-859B-D91FFC98354B/vbe72010-kb2965310-fullfile-x64-glb.exe
+Y1,2015-08,2598244,MS15-081,msptls,32,48482,https://download.microsoft.com/download/8/4/7/847AEAE7-F43F-44A8-867A-BBC2AC333F79/msptls2010-kb2598244-fullfile-x86-glb.exe
+Y1,2015-08,2598244,MS15-081,msptls,64,48487,https://download.microsoft.com/download/2/8/0/28030B5B-F399-491D-A491-E25BD55B0A57/msptls2010-kb2598244-fullfile-x64-glb.exe
+Y1,2015-08,2589318,-,riched20,32,48514,https://download.microsoft.com/download/E/6/3/E635EF12-1973-4839-99AA-0E42216E71CF/riched202010-kb2589318-fullfile-x86-glb.exe
+Y1,2015-08,2589318,-,riched20,64,48531,https://download.microsoft.com/download/2/B/3/2B3C828C-BF96-4B27-A916-D8EBD8C0E0D6/riched202010-kb2589318-fullfile-x64-glb.exe
+Y1,2015-09,3085529,MS15-097,ogl,32,48891,https://download.microsoft.com/download/E/9/C/E9CBD569-5E72-4A55-A7EE-D142C34A13E0/ogl2010-kb3085529-fullfile-x86-glb.exe
+Y1,2015-09,3085529,MS15-097,ogl,64,48906,https://download.microsoft.com/download/1/B/D/1BDD8DB3-CE70-4DB8-BF41-45A1D3D16E61/ogl2010-kb3085529-fullfile-x64-glb.exe
+Y1,2015-09,3055047,-,exppdf,32,48940,https://download.microsoft.com/download/A/8/1/A813581F-E43E-41D2-9B8D-632DB1AC2554/exppdf2010-kb3055047-fullfile-x86-glb.exe
+Y1,2015-09,3055047,-,exppdf,64,48914,https://download.microsoft.com/download/3/E/5/3E5DF55C-27B2-4684-887C-7120305E2E55/exppdf2010-kb3055047-fullfile-x64-glb.exe
+Y1,2015-09,3055042,-,proof,32,49002,https://download.microsoft.com/download/0/B/B/0BBDF83F-41F1-4E4A-B2CC-CBF1E557E97C/proofloc2010-kb3055042-fullfile-x86-glb.exe
+Y1,2015-09,3055042,-,proof,64,49009,https://download.microsoft.com/download/4/9/F/49F0CAB7-CF94-470C-B891-CFE36BD8999B/proofloc2010-kb3055042-fullfile-x64-glb.exe
+Y1,2015-10,3085512,-,oart,32,49417,https://download.microsoft.com/download/9/E/B/9EB7F0A1-C74D-4D12-9915-8594257D9D5E/oart2010-kb3085512-fullfile-x86-glb.exe
+Y1,2015-10,3085512,-,oart,64,49359,https://download.microsoft.com/download/1/7/8/1784D47F-19F4-4579-8884-CAA9E13E59CC/oart2010-kb3085512-fullfile-x64-glb.exe
+Y1,2015-10,3054886,-,csi,32,49420,https://download.microsoft.com/download/A/E/6/AE6ECF78-3124-4151-A0E9-92AA705E6FAD/csi2010-kb3054886-fullfile-x86-glb.exe
+Y1,2015-10,3054886,-,csi,64,49390,https://download.microsoft.com/download/B/6/F/B6F713F5-A339-4C2F-BECC-DA673EB368A7/csi2010-kb3054886-fullfile-x64-glb.exe
+Y1,2015-10,2553388,-,wec,32,49434,https://download.microsoft.com/download/8/A/5/8A5E84C3-EDE4-4611-9A10-58EDE8714F34/wec2010-kb2553388-fullfile-x86-glb.exe
+Y1,2015-10,2553388,-,wec,64,49419,https://download.microsoft.com/download/8/E/4/8E4B6B83-4AF6-4FB9-9101-7BF4A2B81DFC/wec2010-kb2553388-fullfile-x64-glb.exe
+Y1,2015-11,3054978,MS15-116,onenote onenoteintl,32,49665,https://download.microsoft.com/download/9/C/5/9C5090F7-BD42-406D-9CFE-8CFFD70AE695/onenoteloc2010-kb3054978-fullfile-x86-glb.exe
+Y1,2015-11,3054978,MS15-116,onenote onenoteintl,64,49698,https://download.microsoft.com/download/0/5/6/05623B4E-C7DF-4E9F-BACC-CEAB4F3FE4BE/onenoteloc2010-kb3054978-fullfile-x64-glb.exe
+Y1,2015-11,3085594,MS15-116,powerpoint,32,49754,https://download.microsoft.com/download/5/0/B/50B9CEFD-F0F5-4595-BDBC-EDE13CDCFF20/powerpoint2010-kb3085594-fullfile-x86-glb.exe
+Y1,2015-11,3085594,MS15-116,powerpoint,64,49702,https://download.microsoft.com/download/9/8/8/98849843-3249-4E87-A9EA-F171F74DBF4D/powerpoint2010-kb3085594-fullfile-x64-glb.exe
+Y1,2015-11,3101543,MS15-116,excel,32,49667,https://download.microsoft.com/download/9/4/6/94667070-9D7A-4B3C-9C68-342FAE641329/excel2010-kb3101543-fullfile-x86-glb.exe
+Y1,2015-11,3101543,MS15-116,excel,64,49799,https://download.microsoft.com/download/D/0/0/D00A8376-94CD-40BA-ABB7-DED3EC8AD0E3/excel2010-kb3101543-fullfile-x64-glb.exe
+# ,,,,,,, KB3101526 patches a common file (VISSHE.DLL) in Office 2010 suite
+Y1,2015-11,3101526,MS15-116,visio,32,49788,https://download.microsoft.com/download/E/F/9/EF9D0CF6-B594-4AC0-8425-41DE4E5D9AC6/visio2010-kb3101526-fullfile-x86-glb.exe
+Y1,2015-11,3101526,MS15-116,visio,64,49798,https://download.microsoft.com/download/A/1/D/A1D937C9-4BFD-44C6-996D-7DAFC721B69F/visio2010-kb3101526-fullfile-x64-glb.exe
+Y1,2015-11,3101521,MS15-116,mso,32,49682,https://download.microsoft.com/download/4/1/6/416CA348-C6E1-416F-AE3F-4B9A9D08FF7B/mso2010-kb3101521-fullfile-x86-glb.exe
+Y1,2015-11,3101521,MS15-116,mso,64,49716,https://download.microsoft.com/download/4/8/6/4861C2EA-199E-46F8-8B7F-AAE255F62C14/mso2010-kb3101521-fullfile-x64-glb.exe
+Y1,2015-11,3101544,MS15-116,access,32,49655,https://download.microsoft.com/download/7/4/A/74A09B59-A679-4668-8FF1-86F4F159939E/access2010-kb3101544-fullfile-x86-glb.exe
+Y1,2015-11,3101544,MS15-116,access,64,49806,https://download.microsoft.com/download/4/E/2/4E26151E-F588-41BA-84A8-C7BD311E030B/access2010-kb3101544-fullfile-x64-glb.exe
+Y1,2015-11,2965313,MS15-116,word wordintl,32,49801,https://download.microsoft.com/download/0/F/E/0FEF569D-24D2-446F-A177-EE35843D2FC7/wordloc2010-kb2965313-fullfile-x86-glb.exe
+Y1,2015-11,2965313,MS15-116,word wordintl,64,49685,https://download.microsoft.com/download/9/3/2/932F9D8F-0A5C-4DD9-9A8E-FD3FF9B7B02C/wordloc2010-kb2965313-fullfile-x64-glb.exe
+Y1,2015-11,2817478,MS15-116,publisher,32,49662,https://download.microsoft.com/download/5/C/A/5CAB8098-2AD3-4BDC-A0BF-7BAD2BC70750/publisher2010-kb2817478-fullfile-x86-glb.exe
+Y1,2015-11,2817478,MS15-116,publisher,64,49720,https://download.microsoft.com/download/6/D/5/6D5A27E6-5D79-4960-B54E-89E3CAC01A2A/publisher2010-kb2817478-fullfile-x64-glb.exe
+Y1,2015-11,2878230,MS15-116,infopath,32,49802,https://download.microsoft.com/download/7/0/5/705B0A65-C2B5-4F46-B927-3EE8C73C3B64/infopath2010-kb2878230-fullfile-x86-glb.exe
+Y1,2015-11,2878230,MS15-116,infopath,64,49691,https://download.microsoft.com/download/0/9/9/09927C36-92F9-4FCE-9772-ECB0AF5CC634/infopath2010-kb2878230-fullfile-x64-glb.exe
+Y1,2015-11,3085560,MS15-099,convintl,32,49786,https://download.microsoft.com/download/6/9/C/69C1DCF0-1A82-4AD1-B351-5A9F53D15ED1/convloc2010-kb3085560-fullfile-x86-glb.exe
+Y1,2015-11,3085560,MS15-099,convintl,64,49744,https://download.microsoft.com/download/5/2/A/52AC44F2-0711-4EAB-843A-9C3040C6D655/convloc2010-kb3085560-fullfile-x64-glb.exe
+Y1,2015-11,3101535,-,outlook outlookintl,32,49848,https://download.microsoft.com/download/7/E/7/7E70958F-EDCE-4F0D-8250-CB5F424F712A/outlookloc2010-kb3101535-fullfile-x86-glb.exe
+Y1,2015-11,3101535,-,outlook outlookintl,64,49862,https://download.microsoft.com/download/1/8/5/185BA7EE-A06A-4C78-BF65-6AE44D1E660C/outlookloc2010-kb3101535-fullfile-x64-glb.exe
+Y1,2015-11,2837592,-,ace,32,49824,https://download.microsoft.com/download/C/8/7/C8748BA3-F581-4FC3-A013-23E579AEE6F1/ace2010-kb2837592-fullfile-x86-glb.exe
+Y1,2015-11,2837592,-,ace,64,49856,https://download.microsoft.com/download/5/E/E/5EEBFAFB-48EA-4CBF-B483-E5A48711ACBF/ace2010-kb2837592-fullfile-x64-glb.exe
+Y1,2015-11,2791057,-,accessolkaddin,32,49818,https://download.microsoft.com/download/C/6/2/C621D4EC-9D87-4CE2-ABDB-D216F224127F/accessolkaddin2010-kb2791057-fullfile-x86-glb.exe
+Y1,2015-11,2791057,-,accessolkaddin,64,49821,https://download.microsoft.com/download/0/F/A/0FA13B01-4914-4DB7-B31E-E1DB8D4E3193/accessolkaddin2010-kb2791057-fullfile-x64-glb.exe
+
+# ,,,,,,, If you just wish to update Office 2010 to the latest state. We
+# ,,,,,,, recommended you to install updates in this order: (1) the targetdir
+# ,,,,,,, update (KB2825640). (2) Service Pack. Then (3) install updates from
+# ,,,,,,, the latest released to the earliest. This is because an update for
+# ,,,,,,, Office 2010 might contain multiple .msp packages. And for each
+# ,,,,,,, package applied, a copy of the old files before which are patched
+# ,,,,,,, will be stored onto your disk. This wastes space unless you used this
+# ,,,,,,, method so that earlier .msp packages will detect the newer files and
+# ,,,,,,, skip itself. Later .msp packages always contain files patched in the
+# ,,,,,,, earlier update of the same name. But an update file (.exe) does not
+# ,,,,,,, always contain all .msp packages released in earlier updates of the
+# ,,,,,,, same component.
