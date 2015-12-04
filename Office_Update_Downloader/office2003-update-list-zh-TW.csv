@@ -1,5 +1,5 @@
-# For Office Professional Edition 2003 - Chinese Traditional,,,,,,
-# Last updated: 2014-08-16 (2014-07 Patch Tuesday),,,,,,
+# ,,,,,, For Office Professional Edition 2003 - Chinese Traditional
+# ,,,,,, Last updated: 2014-08-16 (2014-07 Patch Tuesday)
 # Download?,Date,KB number,Security bulletin,Component,Download ID,Direct link
 Y,2007-09,923618,SP3,MAINSP3,8,https://download.microsoft.com/download/f/6/4/f64688cc-e40d-4070-a6d8-12b5ac44d501/Office2003SP3-KB923618-FullFile-CHT.exe
 Y,2008-02,943973,MS08-011,WORKS632,1101,https://download.microsoft.com/download/c/6/4/c6477678-adb3-4497-aedc-15765c6d914a/office2003-KB943973-FullFile-CHT.exe
@@ -12,14 +12,14 @@ Y,2010-09,2288613,MS10-063,USP10,23997,https://download.microsoft.com/download/9
 Y,2010-09,2293428,MS10-064,OLKINTL,23351,https://download.microsoft.com/download/1/F/E/1FECBE16-77E5-4A67-953B-9F1E9BC6F327/office2003-KB2293428-FullFile-CHT.exe
 Y,2010-12,2289163,MS10-105,GPFILT,11805,https://download.microsoft.com/download/5/7/9/57984D17-D76B-4179-A9F9-8AAED35662C2/office2003-KB2289163-FullFile-CHT.exe
 Y,2011-05,2535812,MS11-036,POWERPNT,6179,https://download.microsoft.com/download/D/3/0/D306A754-7EC1-492E-A4B3-257A1A0F7369/office2003-KB2535812-FullFile-CHT.exe
-# KB2493523 patches a common file (OMFCU.dll) in Office 2003 suite
+# ,,,,,, KB2493523 patches a common file (OMFCU.dll) in Office 2003 suite
 Y,2011-07,2493523,MS11-055,MFC11,26781,https://download.microsoft.com/download/B/0/B/B0BA3BD3-ABE6-455D-B20E-2EEBCE97491A/office2003-KB2493523-FullFile-CHT.exe
 Y,2012-07,2687626,MS12-046,VBE6,35717,https://download.microsoft.com/download/B/B/3/BB398FAB-A7BA-44DE-8E9F-8A43D7F597B3/office2003-KB2687626-FullFile-CHT.exe
 Y,2012-08,2726929,MS12-060,MSCOMCTL,36010,https://download.microsoft.com/download/0/1/9/01927906-1A3D-4C5C-BA3D-C428CFAC1FC8/office2003-KB2726929-FullFile-CHT.exe
 Y,2013-01,2760574,MS13-002,MSXML5,36361,https://download.microsoft.com/download/C/9/2/C92A1C0C-283E-428B-B190-970BD22C1983/office2003-KB2760574-FullFile-CHT.exe
 Y,2013-09,2817474,MS13-072,MSO,40191,https://download.microsoft.com/download/7/6/2/7627552F-48BA-434C-B76B-92C2A2256C6E/office2003-KB2817474-FullFile-CHT.exe
 N,2013-09,2810048,MS13-073,EXCEL,40169,https://download.microsoft.com/download/9/F/1/9F105630-73F3-4094-A894-A0643AFD8436/office2003-KB2810048-FullFile-CHT.exe
-# KB2825621 patches a common file (FPWEC.DLL) in Office 2003 suite
+# ,,,,,, KB2825621 patches a common file (FPWEC.DLL) in Office 2003 suite
 Y,2013-09,2825621,MS13-078,FRONTPG,40180,https://download.microsoft.com/download/E/0/6/E062822F-6533-4B92-8C2A-013502E077D8/office2003-KB2825621-FullFile-CHT.exe
 Y,2013-11,2760494,MS13-091,MSCONV,41120,https://download.microsoft.com/download/E/8/E/E8E4A577-34B8-4F7B-8C29-609313726FC3/office2003-KB2760494-FullFile-CHT.exe
 Y,2013-12,2850047,MS13-096,GDIPLUS,41426,https://download.microsoft.com/download/8/C/1/8C1807D1-9501-4CDC-8976-816CC596E6F0/office2003-KB2850047-FullFile-CHT.exe
