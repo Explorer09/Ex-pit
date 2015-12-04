@@ -171,14 +171,14 @@ Y1,2015-11,2837592,-,ace,32,49824,https://download.microsoft.com/download/C/8/7/
 Y1,2015-11,2837592,-,ace,64,49856,https://download.microsoft.com/download/5/E/E/5EEBFAFB-48EA-4CBF-B483-E5A48711ACBF/ace2010-kb2837592-fullfile-x64-glb.exe
 Y1,2015-11,2791057,-,accessolkaddin,32,49818,https://download.microsoft.com/download/C/6/2/C621D4EC-9D87-4CE2-ABDB-D216F224127F/accessolkaddin2010-kb2791057-fullfile-x86-glb.exe
 Y1,2015-11,2791057,-,accessolkaddin,64,49821,https://download.microsoft.com/download/0/F/A/0FA13B01-4914-4DB7-B31E-E1DB8D4E3193/accessolkaddin2010-kb2791057-fullfile-x64-glb.exe
-
+# ,,,,,,,
 # ,,,,,,, If you just wish to update Office 2010 to the latest state. We
 # ,,,,,,, recommended you to install updates in this order: (1) the targetdir
 # ,,,,,,, update (KB2825640). (2) Service Pack. Then (3) install updates from
 # ,,,,,,, the latest released to the earliest. This is because an update for
 # ,,,,,,, Office 2010 might contain multiple .msp packages. And for each
-# ,,,,,,, package applied, a copy of the old files before which are patched
-# ,,,,,,, will be stored onto your disk. This wastes space unless you used this
+# ,,,,,,, package applied a copy of the old files before which are patched will
+# ,,,,,,, be stored onto your disk. This wastes space unless you used this
 # ,,,,,,, method so that earlier .msp packages will detect the newer files and
 # ,,,,,,, skip itself. Later .msp packages always contain files patched in the
 # ,,,,,,, earlier update of the same name. But an update file (.exe) does not
