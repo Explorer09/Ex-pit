@@ -85,5 +85,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 Lesser General Public License for more details.
 
 The Upgrade script depends on a self-extraction module (7zSD.sfx) by
-Igor Pavlov. The module is licensed under GNU LGPL 2.1.
-7-Zip Copyright (C) 1999-2010 Igor Pavlov.
+Igor Pavlov. The module is placed in the public domain.
+7-Zip Copyright (C) 1999-2016 Igor Pavlov.
