@@ -72,7 +72,7 @@ Authors and License
 
 The IE8 XP Installer Upgrade script is written by Kang-Che Sung ("Explorer").
 
-Copyright (C) 2013 Kang-Che Sung < explorer09 at gmail dot com >
+Copyright (C) 2013,2014,2016 Kang-Che Sung < explorer09 at gmail dot com >
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public

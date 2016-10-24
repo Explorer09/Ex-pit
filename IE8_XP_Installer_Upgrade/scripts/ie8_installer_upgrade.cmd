@@ -2,7 +2,7 @@
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
 REM ---------------------------------------------------------------------------
-REM Copyright (C) 2013-2014 Kang-Che Sung <explorer09 @ gmail.com>
+REM Copyright (C) 2013,2014,2016 Kang-Che Sung <explorer09 @ gmail.com>
 
 REM This program is free software; you can redistribute it and/or
 REM modify it under the terms of the GNU Lesser General Public
@@ -26,19 +26,19 @@ REM Always use delayed expansion. This avoids command injection which is a
 REM security issue.
 
 REM BASE_DIR is where the necessary files for this script are located.
-IF "X!BASE_DIR!"=="X" (
-    SET BASE_DIR=!CD!
+IF "!BASE_DIR!"=="" (
+    SET "BASE_DIR=!CD!"
 )
 REM PATH_TO_INSTALLER is the directory that contains the IE8 installers.
-IF "X!PATH_TO_INSTALLER!"=="X" (
+IF "!PATH_TO_INSTALLER!"=="" (
     SET PATH_TO_INSTALLER="..\ie8_installers"
 )
 REM PATH_TO_UPDATES is the directory that contains the IE8 updates.
-IF "X!PATH_TO_UPDATES!"=="X" (
+IF "!PATH_TO_UPDATES!"=="" (
     SET PATH_TO_UPDATES="..\ie8_updates"
 )
 REM BRANCH could be either GDR or QFE. The default is GDR.
-IF "X!BRANCH!"=="X" (
+IF "!BRANCH!"=="" (
     SET BRANCH=GDR
 )
 
@@ -47,7 +47,7 @@ REM ---------------------------------------------------------------------------
 REM Command-line switch "repack-only" tells this script to repack all IE8
 REM installers and ignore the updates.
 SET g_repack_only=false
-IF /I "X%1"=="Xrepack-only" (
+IF /I "%1"=="repack-only" (
     SET g_repack_only=true
 )
 
@@ -66,24 +66,26 @@ REM Detects the presence of Java and 7-zip.
 REM Poor man's 'which' command for batch script.
 SET P7ZIP=
 FOR %%i IN (7z.exe 7za.exe 7zr.exe) DO (
-    IF "X!P7ZIP!"=="X" (
+    IF "!P7ZIP!"=="" (
         SET P7ZIP=%%~$PATH:i
     )
 )
-IF "X!P7ZIP!"=="X" (
+IF "!P7ZIP!"=="" (
     ECHO ERROR: 7-zip is not found. Please download and install 7-zip here
     ECHO ^(http://www.7-zip.org/^).
     SET has_errors=true
 )
 
+IF NOT DEFINED P7Z_OPT SET P7Z_OPT=
+
 SET JAVA=
 IF "!g_repack_only!"=="false" (
     FOR %%i IN (java.exe) DO (
-        IF "X!JAVA!"=="X" (
+        IF "!JAVA!"=="" (
             SET JAVA=%%~$PATH:i
         )
     )
-    IF "X!JAVA!"=="X" (
+    IF "!JAVA!"=="" (
         ECHO ERROR: Java runtime is not found. Please download and install Java here
         ECHO ^(http://www.java.com/^).
         SET has_errors=true
@@ -120,7 +122,7 @@ FOR %%f IN (7zSD_upxed.sfx sfx_conf.txt PatchUpdateVer.class) DO (
 )
 
 SET BRANCH=!BRANCH:"=!
-IF /I "X!BRANCH!" == "XQFE" (
+IF /I "!BRANCH!"=="QFE" (
     SET BRANCH=QFE
 ) ELSE (
     SET BRANCH=GDR
@@ -236,7 +238,7 @@ REM ---------------------------------------------------------------------------
             SET filename=!filename:WindowsServer2003.WindowsXP=WindowsServer2003!
             SET kb_number=!filename:~24,-12!
             REM Prefix a "0" when kb_number has only 6 digits.
-            IF "X!kb_number:~6!" == "X" (
+            IF "!kb_number:~6!"=="" (
                 SET kb_number=0!kb_number!
             )
             %%f /passive /extract:upgrade-tmp\2003-x64-%%l\!kb_number!
@@ -254,7 +256,7 @@ REM ---------------------------------------------------------------------------
             REM To remove the strings "IE8-WindowsServer2003-KB" and "-x86-XXX.exe".
             SET kb_number=!filename:~24,-12!
             REM Prefix a "0" when kb_number has only 6 digits.
-            IF "X!kb_number:~6!" == "X" (
+            IF "!kb_number:~6!"=="" (
                 SET kb_number=0!kb_number!
             )
             %%f /passive /extract:upgrade-tmp\2003-x86-%%l\!kb_number!
@@ -279,7 +281,7 @@ REM ---------------------------------------------------------------------------
             SET filename=!filename:x86-custom=x86!
             SET kb_number=!filename:~16,-12!
             REM Prefix a "0" when kb_number has only 6 digits.
-            IF "X!kb_number:~6!" == "X" (
+            IF "!kb_number:~6!"=="" (
                 SET kb_number=0!kb_number!
             )
             %%f /passive /extract:upgrade-tmp\xp-x86-%%l\!kb_number!
@@ -448,7 +450,9 @@ REM  */
     CD /D "!PATH_TO_INSTALLER!\upgrade-tmp"
     FOR %%f in (!g_installers_list!) DO (
         CD "%%f"
-        "!P7ZIP!" a -mx=9 -m0=LZMA2 -mmt=2 ..\%%f.7z *
+        "!P7ZIP!" a -mx=9 -myx=9 -ms=on -mqs -mf=on -m0=LZMA2 -mmt=2 %P7Z_OPT% ..\%%f.7z * || (
+            DEL /F /Q ..\%%f.7z
+        )
         CD ..
     )
 GOTO :EOF
