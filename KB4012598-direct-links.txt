@@ -1,0 +1,135 @@
+Security Update for Windows XP SP3 (KB4012598)
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-ara_ec0e5c3d7d1433686c5d59a144d25f99d2e42945.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-chs_dca9b5adddad778cfd4b7349ff54b51677f36775.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-cht_a84b778a7caa21af282f93ea0cdada0f7abb7d6a.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-csy_0d3b05e28c9b74e02f8880d510236e2ca946136f.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-dan_2923c2e1c5af998fccbefdf943dd21541290970a.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-deu_c1e81e14c283f2adbbdce9c1de348b4295b6a45c.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-ell_c7096e83ecfbb487569f986f50ec9cd7bf1b6476.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-enu_eceb7d5023bbb23c0dc633e46b9c2f14fa6ee9dd.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-esn_1fbe054158b612f4d37558975f925469239fa4c3.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-fin_8437b82a5813c7bbfc49acf41184964571dbc4a7.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-fra_eb47689656c58ab374521babb9bdca07304d87f5.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-heb_6f350108d1fc966e2827275791f7fa59ed2b796e.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-hun_c224c0c73222bf850a7c3925aa77710374dea7c6.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-ita_fd509a8ba0a6d53bbe3ebe596ea8c8a15e0a2852.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-jpn_1836e8e67fdffb285b730c1476ec1806bc7c5658.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-kor_b2a6516e2fd541c75ebb4bcaeb15e91846ac90c5.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-nld_b5ca96f480a0c1eed967f4d61d8eb7c8ace46003.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-nor_8267b2e4fee715c7c5dc8694a9ec851fb3af2a74.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-plk_05bec673af4dad0a111aacb89fe2c463539c010e.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-ptb_916cb3aa70ee0e49588196aae0df8f19bfd1c127.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-ptg_90b15b2c32519cc241a8edebd1d912ab93b8b950.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-rus_84397f9eeea668b975c0c2cf9aaf0e2312f50077.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-sve_83fda8bb513115db20f024cecf43008fe8bc36c4.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-trk_6e77a15f3faabd3db9928e7adedcde687f412a72.exe
+
+Security Update for Windows XP SP3 for XPe (KB4012598)
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-ara_9dddddb4444caae947aa1a74bf10df407edb19cd.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-chs_41935edbcd6fa88a69718bc85ab5fd336445e7f9.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-cht_c3696d39aab12713c4bd4e30b8e17f0a03fd8089.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-csy_3cb123add15e1b959477dcc0eda41bc6590c6abb.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-dan_4cb9dc0e472d8de1807eb8b33e4f3da979d109c1.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-deu_1645551f22e67a3ed5eda503832b7f52fea0ae2b.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-ell_cbaa4f1823a3a727b7902f3b8fdd5480aaea40ef.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-enu_8f2c266f83a7e1b100ddb9acd4a6a3ab5ecd4059.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-esn_7541eaea81a579d8e81f5a04ea0a15d88377e38c.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-fin_2be439e5a0267b9050f849a3549f2dbc44e7b177.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-fra_3a5b38b8179c51876e95be5fa74ffdd61c1b6014.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-heb_922bf28b01d14e8443d718377559568b08d4988e.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-hun_6c8514558f4e8626644517bc960501528430af30.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-ita_40b973b017a1c154c060a3b00ff85be277733a9d.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-jpn_501601abe6950a383cdaadf80cc5e7910bbd7b40.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-kor_b603abee9e1c28e60104d061dde0cfcf03ebc27e.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-nld_57fc20bc0acd95ec16ae2cab825ce7961a50f3d0.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-nor_39dec21d837b2f00d0363b9e864bd0f92887220c.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-plk_8fb3bcae8abec1996fb64f944279229ead61ace3.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-ptb_4c587faa590bb22b103d9935d78469c92a79528a.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-ptg_62a22dd37fe27539a8e913132e345f3481f58348.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-rus_a147c857900de2fb28157707e838ec6235d60c3f.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-sve_a4969aa62f27afd5c2873d49299065c053dfbbde.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-embedded-custom-trk_692cee9d896a55c85bc2da8da68f64344f7bb3ab.exe
+
+Security Update for WES09 and POSReady 2009 (KB4012598)
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-ara_da626d46a0e77de24581ad5b8b20be0672bd5e01.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-chs_8789d2232a3d43c44d4d293dc37b4bc06c997e9b.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-cht_a827a40579d7de4c78efeca91d25ec0762e1c5be.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-csy_332623dcf0ab4fc8b69d2bb00df53c0539fd2f83.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-dan_23ca1c5396cb515ad6b533115dc559e80fd9fa4f.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-deu_8704f226a204954807d4be2a7bb21cae2bc802df.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-ell_5c545b421bf88ee5a199fc27e94ab9264f6eb6b0.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-enu_9515c11bc77e39695b83cb6f0e41119387580e30.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-esn_68750ea7c76587a2a5f12f788fb0edd5d724df68.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-fin_af7e43d4c59f50b98a0e2ff5971b111bc9f2d1fe.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-fra_bb8bdd815a6a6a99732dab3cd71deb4b005a8408.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-heb_8064c93bbbf8ea637d1fe538345300b46c3ff115.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-hun_9b3e5168163ad1d7a37a147068c66e705a76dbcd.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-ita_22cae14bc9e431aa14823ead0c9a5039b37658c6.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-jpn_2a0a569cdef2a21ed0df1da0310f66a78abf2b3e.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-kor_4e62c3972598793f631af5f4f867c464c428b00a.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-nld_03cdaab9dfa70acc14ddd4cdf0b052af08bc26bf.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-nor_3d5e53cdc1dbf58e67530e4bba4a2a9775e8c510.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-plk_e54e0a9f6d6732413d7423f1d3b6c537bb3427c9.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-ptb_654c16a03505c057d852db61db4fe5af8abba7db.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-ptg_d24877df0155f91f65e98cd879ad6bbd23b962a3.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-rus_772fa4f6fad37b43181d4ad2723a78519a0cc1df.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-sve_1436fc91043127a8fe69b68f8121610f302a2006.exe
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windowsxp-kb4012598-x86-embedded-trk_a7704aca27f34d3165a7171fd09ca20039d3015c.exe
+
+Security Update for Windows Server 2003 (KB4012598)
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-chs_b45d2d8c83583053d37b20edf5f041ecede54b80.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-cht_71a7359d308c8bda7638b4dc4ea305e7e22cc4c2.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-csy_fb95c001b8f7ac8dacb5b75ed14e6c5b8ced0fff.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-deu_c6ebc3f5283a1f4ced017b6bac61136d66f468c3.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-enu_f617caf6e7ee6f43abe4b386cb1d26b3318693cf.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-esn_ae72c3285246f6eb270d1f2ccdce9de3b83c80d6.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-fra_9cf9ac070a1b21bca6757de5d127427c090d581d.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-hun_6e69954f0cbd769d893a14183f173925293c2606.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-ita_cabd96f12592cbb08a50944152ef901802f17a8d.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-jpn_ae9b4529ef48a9dd7c58ec17085a375eb1befddd.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-kor_347eb4f084fee8e54323c57d5571303b0ed6c2c4.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-nld_8267e6c15d5bba3a7996665ce0884a68706bf9ae.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-plk_e1fd02b350784930be9f3c50d6c111f83ffdbacd.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-ptb_22bd7c6319a6ffb1942b93c68af1ea0925a01229.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-ptg_9da1e245c8421656669da80157490dfd64f9b829.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-rus_62e38676306f9df089edaeec8924a6fdb68ec294.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-sve_493b8394616bd608a0e15c38ab504d36e6d6574e.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-trk_a80e167b5762cf38e439d472902ead45899fe728.exe
+
+Security Update for Windows Server 2003 for x64-based Systems (KB4012598)
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-chs_68a2895db36e911af59c2ee133baee8de11316b9.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-cht_23a0e14eee3320955b6153ed7fab2dd069d39874.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-deu_26d0b97fc0467c46e0fa24cb3eaed268ea77b0e1.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-enu_f24d8723f246145524b9030e4752c96430981211.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-esn_4f5520fa9f8374a1a619ec6fdb358000d1bb4f8f.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-fra_588dc4abebc07abd98721024ce8b3f33cea009f1.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-ita_a3046319221bb8ef0bf3a2bbd2f273660b6885b8.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-jpn_9d5318625b20faa41042f0046745dff8415ab22a.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-kor_8a61cbf7ecdc3220ae8a753abd466cde2025e1d8.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-ptb_6b8aea291d0640d4f824e83852f4a468fbc97fa0.exe
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-rus_6efd5e111cbfe2f9e10651354c0118517cee4c5e.exe
+
+Security Update for Windows XP SP2 for x64-based Systems (KB4012598)
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-enu_f24d8723f246145524b9030e4752c96430981211.exe
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-jpn_9d5318625b20faa41042f0046745dff8415ab22a.exe
+
+Security Update for Windows Vista (KB4012598)
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x86_13e9b3d77ba5599764c296075a796c16a85c745c.msu
+
+Security Update for Windows Server 2008 (KB4012598)
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x86_13e9b3d77ba5599764c296075a796c16a85c745c.msu
+
+Security Update for Windows Vista for x64-based Systems (KB4012598)
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x64_6a186ba2b2b98b2144b50f88baf33a5fa53b5d76.msu
+
+Security Update for Windows Server 2008 for x64-based Systems (KB4012598)
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x64_6a186ba2b2b98b2144b50f88baf33a5fa53b5d76.msu
+
+Security Update for Windows Server 2008 for Itanium-based Systems (KB4012598)
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-ia64_83a6f5a70588b27623b11c42f1c8124a25d489de.msu
+
+Security Update for Windows 8 (KB4012598)
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/05/windows8-rt-kb4012598-x86_a0f1c953a24dd042acc540c59b339f55fb18f594.msu
+
+Security Update for Windows 8 for x64-based Systems (KB4012598)
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/05/windows8-rt-kb4012598-x64_f05841d2e94197c2dca4457f1b895e8f632b7f8e.msu
