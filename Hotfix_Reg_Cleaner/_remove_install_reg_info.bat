@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
-ECHO Last updated: 2014-05-02 (April 2014 Patch Tuesday)
+ECHO Last updated: 2017-05-13 (April 2014 Patch Tuesday + KB4012598 update)
 ECHO.
 ECHO This script removes the registry entries of Windows updates you have installed.
 ECHO Before continuing, make sure you have admistrator rights and turn off your
@@ -43,7 +43,6 @@ KB2485663
 KB2491683
 KB2492386
 KB2506212
-KB2508429
 KB2509553
 KB2510581
 KB2535512
@@ -102,6 +101,7 @@ KB2930275
 KB2935092
 KB2936068
 KB2964358
+KB4012598
 ) DO (
     SET update_list=!update_list! %%i
     SET /A updates_count+=1
@@ -259,6 +259,7 @@ KB2506223
 KB2507618
 KB2507938
 KB2508272
+KB2508429
 KB2511455
 KB2524375
 KB2530548
