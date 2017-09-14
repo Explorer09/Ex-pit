@@ -344,13 +344,21 @@ GOTO :EOF
             REM removed. The installer uses "ieuinit.inf" for both x64 and WoW64.
             DEL /F /Q wow\wieuinit.inf
             FOR %%f IN (wow\*) DO (
-                ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
+                IF EXIST "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" (
+                    ECHO %%f
+                    MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
+                ) ELSE (
+                    ECHO %%f (skipped)
+                )
             )
             DEL /F /Q wow
             FOR %%f IN (*) DO (
-                ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
+                IF EXIST "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" (
+                    ECHO %%f
+                    MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
+                ) ELSE (
+                    ECHO %%f (skipped)
+                )
             )
 
             CD /D "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\update"
@@ -386,8 +394,12 @@ GOTO :EOF
             ECHO.
             ECHO Moving files from upgrade-tmp\2003-x86-%%l\%%i\SP2!this_branch!\* ...
             FOR %%f IN (*) DO (
-                ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\%%f" >NUL
+                IF EXIST "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\%%f" (
+                    ECHO %%f
+                    MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\%%f" >NUL
+                ) ELSE (
+                    ECHO %%f (skipped)
+                )
             )
 
             CD /D "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\update"
@@ -423,8 +435,12 @@ GOTO :EOF
             ECHO.
             ECHO Moving files from upgrade-tmp\xp-x86-%%l\%%i\SP3!this_branch!\* ...
             FOR %%f IN (*) DO (
-                ECHO %%f
-                MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\%%f" >NUL
+                IF EXIST "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\%%f" (
+                    ECHO %%f
+                    MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\%%f" >NUL
+                ) ELSE (
+                    ECHO %%f (skipped)
+                )
             )
 
             CD /D "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\update"
