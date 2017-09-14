@@ -348,7 +348,7 @@ GOTO :EOF
                     ECHO %%f
                     MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
                 ) ELSE (
-                    ECHO %%f (skipped)
+                    ECHO %%f ^(skipped^)
                 )
             )
             DEL /F /Q wow
@@ -357,7 +357,7 @@ GOTO :EOF
                     ECHO %%f
                     MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x64-%%l\%%f" >NUL
                 ) ELSE (
-                    ECHO %%f (skipped)
+                    ECHO %%f ^(skipped^)
                 )
             )
 
@@ -398,7 +398,7 @@ GOTO :EOF
                     ECHO %%f
                     MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsServer2003-x86-%%l\%%f" >NUL
                 ) ELSE (
-                    ECHO %%f (skipped)
+                    ECHO %%f ^(skipped^)
                 )
             )
 
@@ -439,7 +439,7 @@ GOTO :EOF
                     ECHO %%f
                     MOVE /Y %%f "!PATH_TO_INSTALLER!\upgrade-tmp\IE8-WindowsXP-x86-%%l\%%f" >NUL
                 ) ELSE (
-                    ECHO %%f (skipped)
+                    ECHO %%f ^(skipped^)
                 )
             )
 
